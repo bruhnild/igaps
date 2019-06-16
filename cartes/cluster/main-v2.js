@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoibG9iZW5pY2hvdSIsImEiOiJjajdrb2czcDQwcHR5MnFycmhuZmo4eWwyIn0.nUf9dWGNVRnMApuhQ44VSw';
+mapboxgl.accessToken = 'pk.eyJ1IjoidmluY2VudGZhdWNoZXIiLCJhIjoiY2p3cDFtMTJ6MXR5cDN5bnNncnYyYmh2MyJ9.88mIlJakYMQRuO7HWezUew'
 
 const map = new mapboxgl.Map({
   container: 'map',
@@ -24,9 +24,9 @@ const eplefpa = ['==', ['get', 'nature'], 'eplefpa'];
 
 map.on('load', () => {
   // add a clustered GeoJSON source for powerplant
-  map.addSource('powerplants', {
+  map.addSource('data', {
     'type': 'geojson',
-    'data': "./ddt_m.geojson",
+    'data': "./service_deconcentres_etat.geojson",
     'cluster': true,
     'clusterRadius': 100,
     'clusterProperties': { // keep separate counts for each fuel category in a cluster
@@ -41,7 +41,7 @@ map.on('load', () => {
   map.addLayer({
     'id': 'powerplant_individual',
     'type': 'circle',
-    'source': 'powerplants',
+    'source': 'data',
     'filter': ['!=', ['get', 'cluster'], true],
     'paint': {
       'circle-color': ['case',
@@ -56,7 +56,7 @@ map.on('load', () => {
     map.addLayer({
       'id': 'powerplant_individual_outer',
       'type': 'circle',
-      'source': 'powerplants',
+      'source': 'data',
       'filter': ['!=', ['get', 'cluster'], true],
       'paint': {
         'circle-stroke-color': ['case',
@@ -92,7 +92,7 @@ map.on('load', () => {
       document.getElementById('key').innerHTML = '';
       let newMarkers = {};
       // get the features whether or not they are visible (https://docs.mapbox.com/mapbox-gl-js/api/#map#queryrenderedfeatures)
-      const features = map.querySourceFeatures('powerplants');
+      const features = map.querySourceFeatures('data');
       // loop through each feature
       totals = getPointCount(features);
       features.forEach((feature) => {
@@ -263,7 +263,7 @@ map.on('load', () => {
     }
 
     map.on('data', (e) => {
-      if (e.sourceId !== 'powerplants' || !e.isSourceLoaded) return;
+      if (e.sourceId !== 'data' || !e.isSourceLoaded) return;
 
       map.on('move', updateMarkers);
       map.on('moveend', updateMarkers);

@@ -19,9 +19,9 @@ map.on('load', function () {
 
 //MAPS
 
-map.addSource('dep_maps-8tx1za', {
+map.addSource('dep_maps', {
 type: 'vector',
-url: 'vincentfaucher.bnskcbaw'});
+url: 'mapbox://vincentfaucher.bnskcbaw'});
   
     map.addLayer({
         "id": "dep_maps",
@@ -127,11 +127,11 @@ url: 'vincentfaucher.bnskcbaw'});
 
  // Add a new source from our GeoJSON data and set the
     // 'cluster' option to true. GL-JS will add the point_count property to your source data.
-    map.addSource("ddt_m", {
+    map.addSource("data", {
         type: "geojson",
-        // Point to GeoJSON data. This example visualizes all M1.0+ ddt_m
+        // Point to GeoJSON data. This example visualizes all M1.0+ data
         // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
-        data: "./ddt_m.geojson",
+        data: "./service_deconcentres_etat.geojson",
         cluster: true,
         clusterMaxZoom: 14, // Max zoom to cluster points on
         clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
@@ -140,7 +140,7 @@ url: 'vincentfaucher.bnskcbaw'});
     map.addLayer({
         id: "clusters",
         type: "circle",
-        source: "ddt_m",
+        source: "data",
         filter: ["has", "point_count"],
         paint: {
             // Use step expressions (https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
@@ -172,7 +172,7 @@ url: 'vincentfaucher.bnskcbaw'});
     map.addLayer({
         id: "cluster-count",
         type: "symbol",
-        source: "ddt_m",
+        source: "data",
         filter: ["has", "point_count"],
         layout: {
             "text-field": "{point_count_abbreviated}",
@@ -184,7 +184,7 @@ url: 'vincentfaucher.bnskcbaw'});
     map.addLayer({
         id: "unclustered-point",
         type: "circle",
-        source: "ddt_m",
+        source: "data",
         filter: ["!", ["has", "point_count"]],
         paint: {
             "circle-color": "#002f89",
@@ -198,7 +198,7 @@ url: 'vincentfaucher.bnskcbaw'});
     map.on('click', 'clusters', function (e) {
         var features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
         var clusterId = features[0].properties.cluster_id;
-        map.getSource('ddt_m').getClusterExpansionZoom(clusterId, function (err, zoom) {
+        map.getSource('data').getClusterExpansionZoom(clusterId, function (err, zoom) {
             if (err)
                 return;
 
@@ -227,7 +227,7 @@ url: 'vincentfaucher.bnskcbaw'});
 //   closeOnClick: false });  
   
 // map.on('mousemove', function(e) {
-//   var features= map.queryRenderedFeatures(e.point, { layers: ['dep_maps','ddt_m'] });
+//   var features= map.queryRenderedFeatures(e.point, { layers: ['dep_maps','data'] });
 //   // Change the cursorstyle as a UI indicator.
 //   map.getCanvas().style.cursor= (features.length) ? 'pointer' : '';
                                  

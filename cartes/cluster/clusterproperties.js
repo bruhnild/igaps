@@ -13,7 +13,7 @@ var hoveredStateId =  null;
 
 map.addControl(new mapboxgl.NavigationControl());
 
-// filters for classifying ddt_m into five categories based on magnitude
+// filters for classifying data into five categories based on magnitude
 var mag1 = ["==", ["get", "nature"], 'ddt'];
 var mag2 = ["==", ["get", "nature"], 'ddtm'];
 var mag3 = ["==", ["get", "nature"], 'ddpp'];
@@ -23,10 +23,10 @@ var mag4 = ["==", ["get", "nature"], 'eplefpa'];
 var colors = ['#fbb4ae', '#b3cde3', '#ccebc5', '#decbe4'];
 
 map.on('load', function () {
-    // add a clustered GeoJSON source for a sample set of ddt_m
-    map.addSource('ddt_m', {
+    // add a clustered GeoJSON source for a sample set of data
+    map.addSource('data', {
         "type": "geojson",
-        "data": "./ddt_m.geojson",
+        "data": "./service_deconcentres_etat.geojson",
         "cluster": true,
         "clusterRadius": 80,
         "clusterProperties": { // keep separate counts for each magnitude category in a cluster
@@ -36,11 +36,11 @@ map.on('load', function () {
             "mag4": ["+", ["case", mag4, 1, 0]]
         }
     });
-    // circle and symbol layers for rendering individual ddt_m (unclustered points)
+    // circle and symbol layers for rendering individual data (unclustered points)
     map.addLayer({
         "id": "earthquake_circle",
         "type": "circle",
-        "source": "ddt_m",
+        "source": "data",
         "filter": ["!=", "cluster", true],
         "paint": {
             "circle-color": ["case",
@@ -55,7 +55,7 @@ map.on('load', function () {
     map.addLayer({
         "id": "earthquake_label",
         "type": "symbol",
-        "source": "ddt_m",
+        "source": "data",
         "filter": ["!=", "cluster", true],
         "layout": {
             "text-field": ["number-format", ["get", "nature"], {"min-fraction-digits": 1, "max-fraction-digits": 1}],
@@ -73,7 +73,7 @@ map.on('load', function () {
 
     function updateMarkers() {
         var newMarkers = {};
-        var features = map.querySourceFeatures('ddt_m');
+        var features = map.querySourceFeatures('data');
 
         // for every cluster on the screen, create an HTML marker for it (if we didn't yet),
         // and add it to the map if it's not there already
@@ -103,7 +103,7 @@ map.on('load', function () {
 
     // after the GeoJSON data is loaded, update markers on the screen and do so on every map move/moveend
     map.on('data', function (e) {
-        if (e.sourceId !== 'ddt_m' || !e.isSourceLoaded) return;
+        if (e.sourceId !== 'data' || !e.isSourceLoaded) return;
 
         map.on('move', updateMarkers);
         map.on('moveend', updateMarkers);

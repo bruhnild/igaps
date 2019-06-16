@@ -1,9 +1,9 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoibG9iZW5pY2hvdSIsImEiOiJjajdrb2czcDQwcHR5MnFycmhuZmo4eWwyIn0.nUf9dWGNVRnMApuhQ44VSw';
+mapboxgl.accessToken = 'pk.eyJ1IjoidmluY2VudGZhdWNoZXIiLCJhIjoiY2p3cDFtMTJ6MXR5cDN5bnNncnYyYmh2MyJ9.88mIlJakYMQRuO7HWezUew'
 
 const map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/lobenichou/cjto9zfpj00jq1fs7gajbuaas',
-  center: [-79.381000, 43.646000],
+  style: 'mapbox://styles/lobenichou/cjto9zfpj00jq1fs7gajbuaas?fresh=true',
+  center: [2.7877831156249613, 46.892729 ], // lat/long
   zoom: 5.4, // zoom
   pitch: 10, // Inclinaison
   bearing: 0 // Rotation
@@ -27,9 +27,9 @@ const others = ['all', ['==', ['get', 'fuel1'], 'Cogeneration'], ['==', ['get', 
 
 map.on('load', () => {
   // add a clustered GeoJSON source for powerplant
-  map.addSource('ddt_m', {
+  map.addSource('data', {
     'type': 'geojson',
-    'data': "./ddt_m.geojson",
+    'data': "./service_deconcentres_etat.geojson",
     'cluster': true,
     'clusterRadius': 80,
     'clusterProperties': { // keep separate counts for each fuel category in a cluster
@@ -50,7 +50,7 @@ map.on('load', () => {
   map.addLayer({
     'id': 'powerplant_cluster',
     'type': 'circle',
-    'source': 'ddt_m',
+    'source': 'data',
     'filter': [
       'all',
       ['>', ['get', current_fuel], 1],
@@ -75,7 +75,7 @@ map.on('load', () => {
   map.addLayer({
     'id': 'powerplant_cluster_label',
     'type': 'symbol',
-    'source': 'ddt_m',
+    'source': 'data',
     'filter': [
       'all',
       ['>', ['get', current_fuel], 1],
@@ -94,7 +94,7 @@ map.on('load', () => {
   map.addLayer({
       'id': 'powerplant_individual',
       'type': 'circle',
-      'source': 'ddt_m',
+      'source': 'data',
       'filter': [
         'all',
         hydro,
@@ -110,7 +110,7 @@ map.on('load', () => {
     map.addLayer({
         'id': 'powerplant_individual_outer',
         'type': 'circle',
-        'source': 'ddt_m',
+        'source': 'data',
         'filter': [
           'all',
           ['!=', ['get', 'cluster'], true]
