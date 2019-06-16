@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWFraW5hY29ycHVzIiwiYSI6ImNqY3E4ZTNwcTFta3ozM
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v10', // fond de carte
-    center: [2.7877831156249613, 46.892729 ], // lat/long
+    center: [2.549830, 46.557995 ], // lat/long
     zoom: 5.4, // zoom
     pitch: 10, // Inclinaison
     bearing: 0 // Rotation

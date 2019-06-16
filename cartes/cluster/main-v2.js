@@ -3,37 +3,39 @@ mapboxgl.accessToken = 'pk.eyJ1IjoidmluY2VudGZhdWNoZXIiLCJhIjoiY2p3cDFtMTJ6MXR5c
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/lobenichou/cjto9zfpj00jq1fs7gajbuaas?fresh=true',
-  center: [2.7877831156249613, 46.892729 ], // lat/long
-  zoom: 5.4, // zoom
-  pitch: 10, // Inclinaison
-  bearing: 0 // Rotation
+    center: [2.549830, 46.557995 ], // lat/long
+    zoom: 5.4, // zoom
+    pitch: 10, // Inclinaison
+    bearing: 0 // Rotation
 });
 
-const colors = ['#8dd3c7','#ffffb3','#bebada','#fb8072'];
+const colors = ['#8dd3c7','#ffffb3','#bebada','#fb8072', '#80b1d3'];
 
 // using d3 to create a consistent color scale
 const colorScale = d3.scaleOrdinal()
-  .domain(["ddt", "ddtm", "ddpp", "eplefpa"])
+  .domain(["ddt", "ddtm", "ddpp", "eplefpa", "draaf"])
   .range(colors)
 
 const ddt = ['==', ['get', 'nature'], 'ddt'];
 const ddtm = ['==', ['get', 'nature'], 'ddtm'];
 const ddpp = ['==', ['get', 'nature'], 'ddpp'];
 const eplefpa = ['==', ['get', 'nature'], 'eplefpa'];
+const draaf = ['==', ['get', 'nature'], 'draaf'];
 
 
 map.on('load', () => {
   // add a clustered GeoJSON source for powerplant
   map.addSource('data', {
     'type': 'geojson',
-    'data': "./service_deconcentres_etat.geojson",
+    // 'data': "./service_deconcentres_etat.geojson",
     'cluster': true,
     'clusterRadius': 100,
     'clusterProperties': { // keep separate counts for each fuel category in a cluster
       'ddt': ['+', ['case', ddt, 1, 0]],
       'ddtm': ['+', ['case', ddtm, 1, 0]],
       'ddpp': ['+', ['case', ddpp, 1, 0]],
-      'eplefpa': ['+', ['case', eplefpa, 1, 0]]
+      'eplefpa': ['+', ['case', eplefpa, 1, 0]],
+      'draaf': ['+', ['case', draaf, 1, 0]]
      
     }
   });
@@ -48,6 +50,7 @@ map.on('load', () => {
         ddt, colorScale('ddt'),
         ddtm, colorScale('ddtm'),
         ddpp, colorScale('ddpp'),
+        draaf, colorScale('draaf'),
         eplefpa, colorScale('eplefpa'), '#ffed6f'],
       'circle-radius': 5
     }
@@ -63,6 +66,7 @@ map.on('load', () => {
           ddt, colorScale('ddt'),
           ddtm, colorScale('ddtm'),
           ddpp, colorScale('ddpp'),
+          draaf, colorScale('draaf'),
           eplefpa, colorScale('eplefpa'),'#ffed6f'],
         'circle-stroke-width': 2,
         'circle-radius': 10,
@@ -147,7 +151,8 @@ map.on('load', () => {
         {type: 'ddt', count: props.ddt},
         {type: 'ddtm', count: props.ddtm},
         {type: 'ddpp', count: props.ddpp},
-        {type: 'eplefpa', count: props.eplefpa}
+        {type: 'eplefpa', count: props.eplefpa},
+        {type: 'draaf', count: props.draaf}
        
       ];
       // svg config
@@ -220,7 +225,7 @@ map.on('load', () => {
         {type: 'ddt', perc: getPerc(props.ddt)},
         {type: 'ddtm', perc: getPerc(props.ddtm)},
         {type: 'ddpp', perc: getPerc(props.ddpp)},
-        {type: 'oil', perc: getPerc(props.oil)},
+        {type: 'draaf', perc: getPerc(props.draaf)},
         {type: 'eplefpa', perc: getPerc(props.eplefpa)}
         
       ];

@@ -1,1 +1,0 @@
-tippecanoe -z4 -z10 -f /home/mfu/Documents/igaps/tiles/region.mbtiles -o /home/mfu/Documents/igaps/tiles/region.mbtiles -P --coalesce-smallest-as-needed --generate-ids --drop-smallest-as-needed --read-parallel --detect-shared-borders --detect-shared-borders --extend-zooms-if-still-dropping /home/mfu/Documents/igaps/vector/region.geojson
