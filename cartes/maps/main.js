@@ -160,11 +160,11 @@ url: 'mapbox://vincentfaucher.bnskcbaw'});
             "circle-radius": [
                 "step",
                 ["get", "point_count"],
+                10,
+                10,
                 20,
-                100,
-                30,
-                750,
-                40
+                20,
+                30
             ]
         }
     });
