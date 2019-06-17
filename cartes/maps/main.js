@@ -220,48 +220,6 @@ url: 'mapbox://vincentfaucher.bnskcbaw'});
     }); 
 
  
-//Interactivité HOVER
- 
-//v ar popup= new mapboxgl.Popup({
-//   closeButton: false,
-//   closeOnClick: false });  
-  
-// map.on('mousemove', function(e) {
-//   var features= map.queryRenderedFeatures(e.point, { layers: ['dep_maps','data'] });
-//   // Change the cursorstyle as a UI indicator.
-//   map.getCanvas().style.cursor= (features.length) ? 'pointer' : '';
-                                 
-// if (!features.length) {
-//   popup.remove();
-//  return; }
-  
-// var feature= features[0];
-
-//     popup.setLngLat(feature.geometry.coordinates)
-//     .setHTML(feature.properties.MAPS)
-//     .addTo(map);
-// });
-
-
-// function toggleLayer(e ) {
-//   console.log(e)
-//         e.preventDefault();
-//         e.stopPropagation();
-                                 
-                                 
-//       toggleableLayers[e.target.id].layers.forEach(function(layer){
-        
-//               var visibility = map.getLayoutProperty(layer, 'visibility');
-//         if (visibility === 'visible') {
-//             map.setLayoutProperty(layer, 'visibility', 'none');
-//             this.className = '';} else {this.className = 'active';
-//             map.setLayoutProperty(layer, 'visibility', 'visible');}  
-        
-//       })
-// }
-
-
-
 //Interactivité CLICK
 // When a click event occurs on a feature in the states layer, open a popup at the
 // location of the click, with description HTML from its properties.
@@ -342,4 +300,45 @@ document.getElementById('S').addEventListener('click', function ()
  pitch: 0,  center: [4.133, 43.775], // starting position
     zoom: 6 });
 });
+
+
+
+//Ajouter un menu pour gérer les couches
+
+
+function toggleLayer(e ) {
+  console.log(e)
+        e.preventDefault();
+        e.stopPropagation();
+                                 
+                                 
+      toggleableLayers[e.target.id].layers.forEach(function(layer){
+        
+              var visibility = map.getLayoutProperty(layer, 'visibility');
+        if (visibility === 'visible') {
+            map.setLayoutProperty(layer, 'visibility', 'none');
+            this.className = '';} else {this.className = 'active';
+            map.setLayoutProperty(layer, 'visibility', 'visible');}  
+        
+      })
+}
+
+var toggleableLayers = [
+  {id:1,label:"Départements",layers:['dep_maps', 'state-fills', 'state-borders']}, 
+  {id:2,label:"Cluster",layers:['clusters', 'unclustered-point', 'cluster-count']}                       
+  ];
+
+for (var i = 0; i < toggleableLayers.length; i++) {
+    var toggleableLayer = toggleableLayers[i];
+
+    var link = document.createElement('a');
+    link.href = '#';
+    link.className = 'active';
+    link.textContent = toggleableLayer.label;
+    link.id = i;
+    link.onclick = (e)=>toggleLayer(e);                         
+                                                    
+                              
+
+var layers = document.getElementById('menu');  layers.appendChild(link); }
 
