@@ -27,7 +27,7 @@ map.on('load', () => {
   // add a clustered GeoJSON source for powerplant
   map.addSource('data', {
     'type': 'geojson',
-    // 'data': "./service_deconcentres_etat.geojson",
+    'data': "./service_deconcentres_etat.geojson",
     'cluster': true,
     'clusterRadius': 100,
     'clusterProperties': { // keep separate counts for each fuel category in a cluster
