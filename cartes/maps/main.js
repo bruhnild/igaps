@@ -32,6 +32,13 @@ map.addSource("region", {
 'generateId': true,
 "data": "./region.geojson"});
 
+// dom tom
+map.addSource('dom_tom-4ijxg6', {
+type: 'vector',
+url: 'mapbox://vincentfaucher.6zinyqpl'});
+
+
+
 // service_deconcentres_etat
 // Add a new source from our GeoJSON data and set the
 // 'cluster' option to true. GL-JS will add the point_count property to your source data.
@@ -78,6 +85,19 @@ break;
             'Sud', '#fdb462',
             '#7c1ae4']   //else  
                  }
+    }); 
+//dom tom
+    map.addLayer({
+        "id": "dom_tom-4ijxg6",
+        "type": "fill",
+        "source": "dom_tom-4ijxg6",
+        "layout": {'visibility': 'visible'},
+        "source-layer": "dom_tom-4ijxg6",
+        "paint": {
+        'fill-opacity':1,
+        'fill-outline-color': '#232323',
+        'fill-color': '#fb8072'  
+         }
     }); 
 
 //region
@@ -347,6 +367,59 @@ document.getElementById('S').addEventListener('click', function ()
     zoom: 6 });
 });
 
+document.getElementById('GLP').addEventListener('click', function () 
+{ map.flyTo({
+ pitch: 0,  center: [-61.68708419799799, 16.230350494384794], // starting position
+    zoom: 6 });
+});
+
+document.getElementById('MTQ').addEventListener('click', function () 
+{ map.flyTo({
+ pitch: 0,  center: [-61.01638793945304, 14.636946201324406], // starting position
+    zoom: 6 });
+});
+
+document.getElementById('REU').addEventListener('click', function () 
+{ map.flyTo({
+ pitch: 0,  center: [55.535833358764705, -21.130833625793457], // starting position
+    zoom: 6 });
+});
+
+document.getElementById('MYT').addEventListener('click', function () 
+{ map.flyTo({
+ pitch: 0,  center: [45.14930534362793, -12.825139522552462], // starting position
+    zoom: 6 });
+});
+
+document.getElementById('GUY').addEventListener('click', function () 
+{ map.flyTo({
+ pitch: 0,  center: [-58.965295261933285, 4.849224805831909], // starting position
+    zoom: 6 });
+});
+
+document.getElementById('NCL').addEventListener('click', function () 
+{ map.flyTo({
+ pitch: 0,  center: [4.133, 43.775], // starting position
+    zoom: 6 });
+});
+
+document.getElementById('PYF').addEventListener('click', function () 
+{ map.flyTo({
+ pitch: 0,  center: [-139.00683144099472, -9.779349327087402], // starting position
+    zoom: 6 });
+});
+
+document.getElementById('WLF').addEventListener('click', function () 
+{ map.flyTo({
+ pitch: 0,  center: [-178.1364573221877, -14.283472061157227], // starting position
+    zoom: 6 });
+});
+
+document.getElementById('SPM').addEventListener('click', function () 
+{ map.flyTo({
+ pitch: 0,  center: [-56.195556640625, 46.78249931335452], // starting position
+    zoom: 6 });
+});
 
 
 //Ajouter un menu pour gérer les couches

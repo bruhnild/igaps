@@ -14,13 +14,16 @@
 
   <style>
     body {
-      margin: 0;
-      padding: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw; 
+    overflow: hidden;
+    max-height:100vh; 
     }
 
     #map {
-    width: 100%; 
-    height:900px; 
+    width: 100vw; 
+    height:100vh; 
     margin: auto;  
     border-width:2px;
     border-style:outset;
@@ -68,6 +71,7 @@
           
     .map-overlay-2 {
         z-index: 1;
+        overflow:scroll;
         font: 10px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
         position: absolute;
         width: 353px;
@@ -76,6 +80,7 @@
         padding: 1px;
         background-color: #FFFFFF;
         color: #000000;
+        height: 100vh;
         opacity: 0.9;
     }
 
@@ -184,7 +189,7 @@
 <body>
 
 
-<div id='map' class='map'>
+<div id='map' class='map'>     </div>
 <nav id="menu"></nav>
 
 
@@ -259,7 +264,7 @@
 </div>
 
 
-             <label class="categoryLabel">Lieux</label>
+             <label class="categoryLabel">Métropole et Corse</label>
                <b>Géo-signets</b>
                </div><BR>
     <button id="CE" class="btn btn-primary">Centre-Est</button>
@@ -269,6 +274,19 @@
   <button id="O" class="btn btn-primary">Ouest</button>
     <button id="S" class="btn btn-primary">Sud</button>
 
+ <label class="categoryLabel">Dom-Tom</label>
+               <b>Géo-signets</b>
+               </div><BR>
+    <button id="GLP" class="btn btn-primary">Guadeloupe</button>
+      <button id="MTQ" class="btn btn-primary">Martinique</button>
+        <button id="REU" class="btn btn-primary">Reunion</button>
+          <button id="MYT" class="btn btn-primary">Mayotte</button>
+            <button id="GUY" class="btn btn-primary">Guyane</button>
+              <button id="NCL" class="btn btn-primary">Nouvelle Calédonie</button>
+                <button id="PYF" class="btn btn-primary">French Polynesia</button>
+                  <button id="WLF" class="btn btn-primary">Wallis and Futuna</button>
+                    <button id="SPM" class="btn btn-primary">Saint Pierre et Miquelon</button>
+
  </div><BR>
          
     Source : Ministère de l'Agriculture <br>
@@ -277,7 +295,7 @@
         </fieldset> <BR>
    </div>
     </div>
-     </div>
+
 
 
   <script src="main.js"></script>
