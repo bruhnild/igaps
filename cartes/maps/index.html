@@ -158,6 +158,26 @@
     background: #3074a4;
 }
 
+.line-container {
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    width: 300px;
+    color: rgba(0,0,0,.75);
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.badge {
+    margin-right: 12px;
+    width : 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
   </style>
 </head>
 
@@ -171,7 +191,7 @@
 <div class='map-overlay-2 top'>
     <div class='map-overlay-inner'>
         <fieldset>
-            <label class="categoryLabel">Carte</label>
+            <label class="categoryLabel">MAPS</label>
             
             <div id="bouton" class="button">
 
@@ -219,29 +239,29 @@
  </div><BR>
             <label class="categoryLabel">Clusters</label>  
             <div id="bouton" class="button">
-            <b>Clusters des établissements d'administrations publiques</b>
+            <b>Établissements d'administrations publiques</b>
 
-    <div class="input-color">
-            <input type="text" value="De 0 à 10 établissements" />
-            <div class="color-box" style="background-color: #51bbd6;"></div>
-            <!-- Replace "#FF850A" to change the color -->
-        </div>
 
-    <div class="input-color">
-            <input type="text" value="De 10 à 20 établissements" />
-            <div class="color-box" style="background-color: #f1f075;"></div>
-            <!-- Replace "#FF850A" to change the color -->
-        </div>
+<div class="line-container">
+<div class="badge" style="height: 20px; width: 20px; background-color : #51bbd6;"> </div>
+<div> De 0 à 10 établissements </div>
+</div>
 
-    <div class="input-color">
-            <input type="text" value="Plus de 20 établissements" />
-            <div class="color-box" style="background-color: #f28cb1;"></div>
-            <!-- Replace "#FF850A" to change the color -->
-        </div>
+<div class="line-container">
+<div class="badge" style="height: 30px; width: 30px; background-color : #f1f075"> </div>
+<div> De 10 à 20 établissements </div>
+</div>
 
-    
- </div><BR>
+
+<div class="line-container">
+<div class="badge" style="height: 50px; width: 50px; background-color : #f28cb1"> </div>
+<div> Plus de 20 établissements </div>
+</div>
+
+
              <label class="categoryLabel">Lieux</label>
+               <b>Géo-signets</b>
+               </div><BR>
     <button id="CE" class="btn btn-primary">Centre-Est</button>
    <button id="CSO" class="btn btn-primary">Centre-Sud-Ouest</button>
   <button id="IFI" class="btn btn-primary">Ile de France et International</button>

@@ -1,3 +1,5 @@
+// Inspiré de : https://bl.ocks.org/mastersigat/b57cea9413e03fac92b00a003734d71e
+
 mapboxgl.accessToken = 'pk.eyJ1IjoidmluY2VudGZhdWNoZXIiLCJhIjoiY2p3cDFtMTJ6MXR5cDN5bnNncnYyYmh2MyJ9.88mIlJakYMQRuO7HWezUew'
 
 // Configuration de la carte
@@ -18,28 +20,29 @@ map.on('styledata', function () {addSources();addLayers();loadImages() })
  
 function addSources () { 
 
+// maps
+
 map.addSource('dep_maps', {
 type: 'vector',
 url: 'mapbox://vincentfaucher.bnskcbaw'});
    
-    map.addSource("region", {
-        "type": "geojson",
-        'generateId': true,
-        "data": "./region.geojson"
-    });
+// regions   
+map.addSource("region", {
+"type": "geojson",
+'generateId': true,
+"data": "./region.geojson"});
 
-
- // Add a new source from our GeoJSON data and set the
-    // 'cluster' option to true. GL-JS will add the point_count property to your source data.
-    map.addSource("data", {
-        type: "geojson",
-        // Point to GeoJSON data. This example visualizes all M1.0+ data
-        // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
-        data: "./service_deconcentres_etat.geojson",
-        cluster: true,
-        clusterMaxZoom: 14, // Max zoom to cluster points on
-        clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
-    });
+// service_deconcentres_etat
+// Add a new source from our GeoJSON data and set the
+// 'cluster' option to true. GL-JS will add the point_count property to your source data.
+map.addSource("data", {
+type: "geojson",
+// Point to GeoJSON data. 
+data: "./service_deconcentres_etat.geojson",
+cluster: true,
+clusterMaxZoom: 14, // Max zoom to cluster points on
+clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
+});
 
 
 }
@@ -56,10 +59,7 @@ break;
 }
 }
 
-//MAPS
-
-
-  
+//maps
     map.addLayer({
         "id": "dep_maps",
         "type": "fill",
@@ -81,8 +81,6 @@ break;
     }); 
 
 //region
-
-
 
     // The feature-state dependent fill-opacity expression will render the hover effect
     // when a feature's hover state is set to true.
@@ -155,11 +153,7 @@ break;
            }
         }
 
-// DDT DDTM
-
-
-
-
+// service_deconcentres_etat
     map.addLayer({
         id: "clusters",
         type: "circle",
@@ -246,6 +240,8 @@ break;
 //Interactivité CLICK
 // When a click event occurs on a feature in the states layer, open a popup at the
 // location of the click, with description HTML from its properties.
+
+//cluster pop-up
 map.on('click', function (e) {
 var features = map.queryRenderedFeatures(e.point, { layers: ['unclustered-point'] });
 if (!features.length) {
@@ -271,20 +267,47 @@ map.on('click', 'unclustered-point', function (e) {
 map.flyTo({center: e.features[0].geometry.coordinates});
 });
 
-       //Ajout échelle cartographique
+
+//region pop-up
+
+// When a click event occurs on a feature in the states layer, open a popup at the
+// location of the click, with description HTML from its properties.
+map.on('click', 'state-fills', function (e) {
+new mapboxgl.Popup()
+.setLngLat(e.lngLat)
+.setHTML('<div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><b>'+e.features[0].properties.libelle+'</b></font></span></div><div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><b><br></b></font></span></div>'
+        +'<div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><font size="2">'+"Coordinateur : " +e.features[0].properties.NOM_COORD +'</font><b><br></b></font></span></div>'
+        +'<div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><font size="2">'+"Téléphone : " +e.features[0].properties.contact_tel +'</font><b><br></b></font></span></div>'
+        +'<div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><font size="2">' +"Mail : " +e.features[0].properties.contact_mail+'</font><b><br></b></font></span></div>')
+.addTo(map);
+});
+ 
+// Change the cursor to a pointer when the mouse is over the states layer.
+map.on('mouseenter', 'states-fills', function () {
+map.getCanvas().style.cursor = 'pointer';
+});
+ 
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'states-fills', function () {
+map.getCanvas().style.cursor = '';
+});
+
+
+
+//Ajout échelle cartographique
        
 map.addControl(new mapboxgl.ScaleControl({
     maxWidth: 120,
     unit: 'metric'}));
     
-     //Ajout boutons de controle
+//Ajout boutons de controle
     
 var nav = new mapboxgl.NavigationControl();
 map.addControl(nav, 'top-right');
 
     
 
-// Config affichage boutons 2D 3D
+// Config geo-signets
 
 
 document.getElementById('CE').addEventListener('click', function () 
