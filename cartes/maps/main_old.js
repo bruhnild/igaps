@@ -12,53 +12,16 @@ var map = new mapboxgl.Map({
 
 var hoveredStateId =  null;
 
-map.on('load', function () {addSources();addLayers();loadImages()});
 
-map.on('styledata', function () {addSources();addLayers();loadImages() })
- 
-function addSources () { 
+
+map.on('load', function () {
+   
+
+//MAPS
 
 map.addSource('dep_maps', {
 type: 'vector',
 url: 'mapbox://vincentfaucher.bnskcbaw'});
-   
-    map.addSource("region", {
-        "type": "geojson",
-        'generateId': true,
-        "data": "./region.geojson"
-    });
-
-
- // Add a new source from our GeoJSON data and set the
-    // 'cluster' option to true. GL-JS will add the point_count property to your source data.
-    map.addSource("data", {
-        type: "geojson",
-        // Point to GeoJSON data. This example visualizes all M1.0+ data
-        // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
-        data: "./service_deconcentres_etat.geojson",
-        cluster: true,
-        clusterMaxZoom: 14, // Max zoom to cluster points on
-        clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
-    });
-
-
-}
-
-function addLayers (){
- 
-var layers = map.getStyle().layers;
- 
-var labelLayerId;
-for (var i = 0; i < layers.length; i++) {
-if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
-labelLayerId = layers[i].id;
-break;
-}
-}
-
-//MAPS
-
-
   
     map.addLayer({
         "id": "dep_maps",
@@ -82,7 +45,11 @@ break;
 
 //region
 
-
+    map.addSource("region", {
+        "type": "geojson",
+        'generateId': true,
+        "data": "./region.geojson"
+    });
 
     // The feature-state dependent fill-opacity expression will render the hover effect
     // when a feature's hover state is set to true.
@@ -158,7 +125,17 @@ break;
 // DDT DDTM
 
 
-
+ // Add a new source from our GeoJSON data and set the
+    // 'cluster' option to true. GL-JS will add the point_count property to your source data.
+    map.addSource("data", {
+        type: "geojson",
+        // Point to GeoJSON data. This example visualizes all M1.0+ data
+        // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
+        data: "./service_deconcentres_etat.geojson",
+        cluster: true,
+        clusterMaxZoom: 14, // Max zoom to cluster points on
+        clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
+    });
 
     map.addLayer({
         id: "clusters",
@@ -240,7 +217,7 @@ break;
     });
 
 
-}
+    }); 
 
  
 //Interactivité CLICK

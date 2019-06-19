@@ -1,3 +1,6 @@
+// Crédits : https://blog.mapbox.com/clustering-properties-with-mapbox-and-html-markers-bb353c8662ba
+// https://github.com/lobenichou/cluster-properties-mbx
+
 mapboxgl.accessToken = 'pk.eyJ1IjoidmluY2VudGZhdWNoZXIiLCJhIjoiY2p3cDFtMTJ6MXR5cDN5bnNncnYyYmh2MyJ9.88mIlJakYMQRuO7HWezUew'
 
 const map = new mapboxgl.Map({
