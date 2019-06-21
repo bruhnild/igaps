@@ -306,4 +306,27 @@ map.on('load', () => {
       map.on('moveend', updateMarkers);
       updateMarkers();
     });
+
+//cluster pop-up
+map.on('click', function (e) {
+var features = map.queryRenderedFeatures(e.point, { layers: ['powerplant_individual_outer'] });
+if (!features.length) {
+return;
+}
+var feature = features[0];
+var popup = new mapboxgl.Popup({ offset: [0, -15] })
+.setLngLat(feature.geometry.coordinates)
+.setHTML('<h4> <font color="#002f89">'  + feature.properties.nomen_long 
+    + '</h6><font color="black"> <img src="https://institutmaritimedeprevention.fr/wp-content/uploads/2017/03/RF_legifrance.jpg"  style="width:30%"> <h6>'
++"Effectifs salariés : " + feature.properties.libtefen + '</h4><p>'
++"Nature juridique : " + feature.properties.libnj + '</p>' )
+.addTo(map);
+});
+
+map.on('mousemove', function (e) {
+var features = map.queryRenderedFeatures(e.point, { layers: ['powerplant_individual_outer'] });
+map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+});
+
+    
 });
