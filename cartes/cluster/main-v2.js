@@ -12,19 +12,23 @@ const map = new mapboxgl.Map({
     bearing: 0 // Rotation
 });
 
-const colors = ['#8dd3c7','#ffffb3','#bebada','#fb8072', '#80b1d3'];
+const colors = ['#8dd3c7','#8dd3c7', '#ffffb3','#ffffb3','#bebada','#fb8072', '#80b1d3', '#80b1d3', '#33a02c', '#1f78b4'];
 
 // using d3 to create a consistent color scale
 const colorScale = d3.scaleOrdinal()
-  .domain(["ddt", "ddtm", "ddpp", "eplefpa", "draaf"])
+  .domain(["daaf", "draaf", "ddcspp", "ddpp", "ddt", "ddtm", "dreal", "deal", "eplefpa","ministere" ])
   .range(colors)
 
+const daaf = ['==', ['get', 'nature'], 'daaf'];
+const draaf = ['==', ['get', 'nature'], 'draaf'];
+const ddcspp = ['==', ['get', 'nature'], 'ddcspp'];
+const ddpp = ['==', ['get', 'nature'], 'ddpp'];
 const ddt = ['==', ['get', 'nature'], 'ddt'];
 const ddtm = ['==', ['get', 'nature'], 'ddtm'];
-const ddpp = ['==', ['get', 'nature'], 'ddpp'];
+const dreal = ['==', ['get', 'nature'], 'dreal'];
+const deal = ['==', ['get', 'nature'], 'deal']; 
 const eplefpa = ['==', ['get', 'nature'], 'eplefpa'];
-const draaf = ['==', ['get', 'nature'], 'draaf'];
-
+const ministere = ['==', ['get', 'nature'], 'ministere'];
 
 map.on('load', () => {
   // add a clustered GeoJSON source for powerplant
@@ -37,9 +41,14 @@ map.on('load', () => {
       'ddt': ['+', ['case', ddt, 1, 0]],
       'ddtm': ['+', ['case', ddtm, 1, 0]],
       'ddpp': ['+', ['case', ddpp, 1, 0]],
+      'ddcspp': ['+', ['case', ddcspp, 1, 0]],
       'eplefpa': ['+', ['case', eplefpa, 1, 0]],
-      'draaf': ['+', ['case', draaf, 1, 0]]
-     
+      'draaf': ['+', ['case', draaf, 1, 0]],
+      'daaf': ['+', ['case', daaf, 1, 0]],
+      'dreal': ['+', ['case', dreal, 1, 0]],
+      'deal': ['+', ['case', deal, 1, 0]],
+      'eplefpa': ['+', ['case', eplefpa, 1, 0]],
+      'ministere': ['+', ['case', ministere, 1, 0]]
     }
   });
 
@@ -53,8 +62,13 @@ map.on('load', () => {
         ddt, colorScale('ddt'),
         ddtm, colorScale('ddtm'),
         ddpp, colorScale('ddpp'),
+        ddcspp, colorScale('ddcspp'),
         draaf, colorScale('draaf'),
-        eplefpa, colorScale('eplefpa'), '#ffed6f'],
+        daaf, colorScale('daaf'),
+        dreal, colorScale('dreal'),
+        deal, colorScale('deal'),
+        eplefpa, colorScale('eplefpa'),
+        ministere, colorScale('ministere'), '#ffed6f'],
       'circle-radius': 5
     }
   });
@@ -66,11 +80,16 @@ map.on('load', () => {
       'filter': ['!=', ['get', 'cluster'], true],
       'paint': {
         'circle-stroke-color': ['case',
-          ddt, colorScale('ddt'),
-          ddtm, colorScale('ddtm'),
-          ddpp, colorScale('ddpp'),
-          draaf, colorScale('draaf'),
-          eplefpa, colorScale('eplefpa'),'#ffed6f'],
+        ddt, colorScale('ddt'),
+        ddtm, colorScale('ddtm'),
+        ddpp, colorScale('ddpp'),
+        ddcspp, colorScale('ddcspp'),
+        draaf, colorScale('draaf'),
+        daaf, colorScale('daaf'),
+        dreal, colorScale('dreal'),
+        deal, colorScale('deal'),
+        eplefpa, colorScale('eplefpa'),
+        ministere, colorScale('ministere'), '#ffed6f'],
         'circle-stroke-width': 2,
         'circle-radius': 10,
         'circle-color': "rgba(0, 0, 0, 0)"
@@ -154,8 +173,13 @@ map.on('load', () => {
         {type: 'ddt', count: props.ddt},
         {type: 'ddtm', count: props.ddtm},
         {type: 'ddpp', count: props.ddpp},
+        {type: 'ddcspp', count: props.ddcspp},
+        {type: 'draaf', count: props.draaf},
+        {type: 'daaf', count: props.daaf},
+        {type: 'dreal', count: props.dreal},
+        {type: 'deal', count: props.deal},
         {type: 'eplefpa', count: props.eplefpa},
-        {type: 'draaf', count: props.draaf}
+        {type: 'ministere', count: props.ministere}
        
       ];
       // svg config
@@ -228,8 +252,13 @@ map.on('load', () => {
         {type: 'ddt', perc: getPerc(props.ddt)},
         {type: 'ddtm', perc: getPerc(props.ddtm)},
         {type: 'ddpp', perc: getPerc(props.ddpp)},
+        {type: 'ddcspp', perc: getPerc(props.ddcspp)},
         {type: 'draaf', perc: getPerc(props.draaf)},
-        {type: 'eplefpa', perc: getPerc(props.eplefpa)}
+        {type: 'daaf', perc: getPerc(props.daaf)},
+        {type: 'dreal', perc: getPerc(props.dreal)},
+        {type: 'deal', perc: getPerc(props.deal)},
+        {type: 'eplefpa', perc: getPerc(props.eplefpa)},
+        {type: 'ministere', perc: getPerc(props.ministere)}
         
       ];
 

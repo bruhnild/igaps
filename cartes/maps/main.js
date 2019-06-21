@@ -32,13 +32,6 @@ map.addSource("region", {
 'generateId': true,
 "data": "./region.geojson"});
 
-// dom tom
-map.addSource('dom_tom-4ijxg6', {
-type: 'vector',
-url: 'mapbox://vincentfaucher.6zinyqpl'});
-
-
-
 // service_deconcentres_etat
 // Add a new source from our GeoJSON data and set the
 // 'cluster' option to true. GL-JS will add the point_count property to your source data.
@@ -83,21 +76,8 @@ break;
             'Nord-Est et Outremer', '#fb8072',
             'Ouest', '#80b1d3',
             'Sud', '#fdb462',
-            '#7c1ae4']   //else  
+            '#fb8072']   //else  
                  }
-    }); 
-//dom tom
-    map.addLayer({
-        "id": "dom_tom-4ijxg6",
-        "type": "fill",
-        "source": "dom_tom-4ijxg6",
-        "layout": {'visibility': 'visible'},
-        "source-layer": "dom_tom-4ijxg6",
-        "paint": {
-        'fill-opacity':1,
-        'fill-outline-color': '#232323',
-        'fill-color': '#fb8072'  
-         }
     }); 
 
 //region
@@ -282,6 +262,16 @@ var features = map.queryRenderedFeatures(e.point, { layers: ['unclustered-point'
 map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
 });
 
+// Change the cursor to a pointer when the mouse is over the states layer.
+map.on('mouseenter', 'unclustered-point', function () {
+map.getCanvas().style.cursor = 'pointer';
+});
+ 
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'unclustered-point', function () {
+map.getCanvas().style.cursor = '';
+});
+
 // Centrer la carte sur les coordonnées des couches 
 map.on('click', 'unclustered-point', function (e) {
 map.flyTo({center: e.features[0].geometry.coordinates});
@@ -302,6 +292,12 @@ new mapboxgl.Popup()
 .addTo(map);
 });
  
+map.on('mousemove', function (e) {
+var features = map.queryRenderedFeatures(e.point, { layers: ['states-fills'] });
+map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+});
+
+
 // Change the cursor to a pointer when the mouse is over the states layer.
 map.on('mouseenter', 'states-fills', function () {
 map.getCanvas().style.cursor = 'pointer';
@@ -399,7 +395,7 @@ document.getElementById('GUY').addEventListener('click', function ()
 
 document.getElementById('NCL').addEventListener('click', function () 
 { map.flyTo({
- pitch: 0,  center: [4.133, 43.775], // starting position
+ pitch: 0,  center: [165.69984783182034, -21.30640338327305], // starting position
     zoom: 6 });
 });
 
