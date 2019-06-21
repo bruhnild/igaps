@@ -294,7 +294,7 @@ map.on('load', () => {
   		  .enter()
   		  .append('td')
 		    .text((d) => d.value)
-        .style('text-transform', 'capitalize')
+        .style('text-transform', 'uppercase')
 
   	  return div;
     }
