@@ -68,7 +68,35 @@
         overflow: auto;
         border-radius: 3px;
     }
-          
+
+/*Pop up on hover*/
+    .map-overlay-3 {
+        position: absolute;
+        bottom: 0;
+        height: 150px;
+        width: 290px;
+        right: 0;
+        background: rgba(255, 255, 255, 0.8);
+        margin-right: 1120px;
+        font-family: Arial, sans-serif;
+        overflow: auto;
+        border-radius: 3px;
+        opacity: 0.8;
+        }
+
+    #features-3 {
+
+        z-index: 1;
+        top: 0;
+        padding: 10px;
+        height: 150px;
+        margin-top: 10px;
+        width: 350px;
+        background-color: #FFFFFF;
+    }
+
+/*Fenêtre de légende */
+
     .map-overlay-2 {
         z-index: 1;
         overflow:scroll;
@@ -82,7 +110,11 @@
         color: #000000;
         height: 100vh;
         opacity: 0.9;
+        margin-top: 10px;
     }
+
+
+/*Classes des MAPS*/
 
     .map-overlay-inner .categoryLabel {
         display: block;
@@ -102,6 +134,8 @@
         width: 250px;
         background-color: #FFFFFF;
     }
+
+
        
     #remover {              
         z-index: 1;
@@ -120,7 +154,7 @@
         background-color: salmon;
     }
 
-
+/*Menu de configuration couche*/
     #menu {
         background: #fff;
         position: absolute;
@@ -152,36 +186,38 @@
     #menu a:hover {
     background-color: #f8f8f8;
     color: #404040;
-}
+    }
  
     #menu a.active {
-    background-color: #3887be;
+    background-color: #535f67;
     color: #ffffff;
-}
+    }
  
     #menu a.active:hover {
     background: #3074a4;
-}
+    }
 
-.line-container {
-    display:flex;
-    align-items:center;
-    justify-content: flex-start;
-    margin-bottom: 10px;
-    width: 300px;
-    color: rgba(0,0,0,.75);
-    font-size: 15px;
-    line-height: 24px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-}
+/*Texte cluster légende*/
+    .line-container {
+        display:flex;
+        align-items:center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        width: 300px;
+        color: rgba(0,0,0,.75);
+        font-size: 15px;
+        line-height: 24px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
 
-.badge {
-    margin-right: 12px;
-    width : 12px;
-    height: 12px;
-    border-radius: 50%;
-}
+/*Symboles cluster légende*/
+    .badge {
+        margin-right: 12px;
+        width : 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
 
   </style>
 </head>
@@ -191,6 +227,9 @@
 
 <div id='map' class='map'>     </div>
 <nav id="menu"></nav>
+
+<div class='map-overlay-3' id='features-3'><h2><b>Explorer les MAPS</b></h2><div id='pd'></div></div>
+
 
 
 <div class='map-overlay-2 top'>
@@ -249,18 +288,18 @@
 
 <div class="line-container">
 <div class="badge" style="height: 20px; width: 20px; background-color : #51bbd6;"> </div>
-<div> De 0 à 10 établissements </div>
+<div> De 0 à 20 établissements </div>
 </div>
 
 <div class="line-container">
 <div class="badge" style="height: 30px; width: 30px; background-color : #f1f075"> </div>
-<div> De 10 à 20 établissements </div>
+<div> De 20 à 30 établissements </div>
 </div>
 
 
 <div class="line-container">
 <div class="badge" style="height: 50px; width: 50px; background-color : #f28cb1"> </div>
-<div> Plus de 20 établissements </div>
+<div> Plus de 30 établissements </div>
 </div>
 
 
@@ -291,18 +330,15 @@
                   <button id="WLF" class="btn btn-lg btn-primary active mr-1">Wallis and Futuna</button>
                     <button id="SPM" class="btn btn-lg btn-primary active mr-1">Saint Pierre et Miquelon</button>
 
-                   
 
- </div><BR>
+
+                </div><BR>
          
     Source : Ministère de l'Agriculture <br>
-    Dataset disponible sur le portail <a href="http://fo-agriculture.fr/spip.php?article1010"  target="_blank" >FO Agriculture</a>
-             
-        </fieldset> <BR>
+    Dataset disponible sur le portail <a href="http://fo-agriculture.fr/spip.php?article1010"  target="_blank" >FO Agriculture</a>     
+</fieldset> <BR>
    </div>
     </div>
-
-
 
   <script src="main.js"></script>
 </body>

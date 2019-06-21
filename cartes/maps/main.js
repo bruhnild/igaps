@@ -142,6 +142,22 @@ break;
         hoveredStateId =  null;
     });
 
+
+        // Configuration fenêtre d'informations
+    map.on('mousemove', function (e) {
+        var states = map.queryRenderedFeatures(e.point, {
+            layers: ['state-fills']
+        });
+        if (states.length > 0) {
+            document.getElementById('pd').innerHTML = 
+            '<div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="3"><b>' + states[0].properties.libelle + '</b></font></span></div><span style="font-family: trebuchet ms, sans-serif;"></span>'
+            + '<div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><font size="2">'+"Coordinateur : " +states[0].properties.NOM_COORD + '</font><b><br></b></font></span></div>'
+            +'<div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><font size="2">'+"Téléphone : "+states[0].properties.contact_tel + '</font><b><br></b></font></span></div>'
+            + '<div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><font size="2">' +"Mail : "+ states[0].properties.contact_mail + '</font><b><br></b></font></span></div>';
+        } 
+    });
+
+
     //Configuration changement des couches
 
 
@@ -169,18 +185,18 @@ break;
                 "step",
                 ["get", "point_count"],
                 "#51bbd6",
-                10,
-                "#f1f075",
                 20,
+                "#f1f075",
+                30,
                 "#f28cb1"
             ],
             "circle-radius": [
                 "step",
                 ["get", "point_count"],
                 10,
-                10,
                 20,
                 20,
+                30,
                 30
             ]
         }
@@ -280,22 +296,10 @@ map.flyTo({center: e.features[0].geometry.coordinates});
 
 //region pop-up
 
-// When a click event occurs on a feature in the states layer, open a popup at the
-// location of the click, with description HTML from its properties.
-map.on('click', 'state-fills', function (e) {
-new mapboxgl.Popup()
-.setLngLat(e.lngLat)
-.setHTML('<div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><b>'+e.features[0].properties.libelle+'</b></font></span></div><div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><b><br></b></font></span></div>'
-        +'<div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><font size="2">'+"Coordinateur : " +e.features[0].properties.NOM_COORD +'</font><b><br></b></font></span></div>'
-        +'<div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><font size="2">'+"Téléphone : " +e.features[0].properties.contact_tel +'</font><b><br></b></font></span></div>'
-        +'<div style="text-align: center;"><span style="font-family: trebuchet ms, sans-serif;"><font size="4"><font size="2">' +"Mail : " +e.features[0].properties.contact_mail+'</font><b><br></b></font></span></div>')
-.addTo(map);
-});
- 
-map.on('mousemove', function (e) {
-var features = map.queryRenderedFeatures(e.point, { layers: ['states-fills'] });
-map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
-});
+// map.on('mousemove', function (e) {
+// var features = map.queryRenderedFeatures(e.point, { layers: ['states-fills'] });
+// map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+// });
 
 
 // Change the cursor to a pointer when the mouse is over the states layer.
