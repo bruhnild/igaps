@@ -72,28 +72,19 @@
 /*Pop up on hover*/
     .map-overlay-3 {
         position: absolute;
-        bottom: 0;
         height: 150px;
-        width: 290px;
-        right: 0;
+        width: 350px;
         background: rgba(255, 255, 255, 0.8);
-        margin-right: 1120px;
         font-family: Arial, sans-serif;
         overflow: auto;
         border-radius: 3px;
         opacity: 0.8;
+        z-index: 1;
+        padding: 10px;
+        top: 10px;
+        left: calc(353px + 10px + 10px);
         }
 
-    #features-3 {
-
-        z-index: 1;
-        top: 0;
-        padding: 10px;
-        height: 150px;
-        margin-top: 10px;
-        width: 350px;
-        background-color: #FFFFFF;
-    }
 
 /*Fenêtre de légende */
 
@@ -229,7 +220,7 @@
 <div id='map' class='map'>     </div>
 <nav id="menu"></nav>
 
-<div class='map-overlay-3' id='features-3'><h2><b>Explorer les MAPS</b></h2><div id='pd'></div></div>
+<div class='map-overlay-3'><h2><b>Explorer les MAPS</b></h2><div id='pd'></div></div>
 
 
 
