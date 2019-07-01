@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+   <head>
+<meta charset='utf-8' />
+<title>Agents IGAPS</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
+  <link href="https://api.mapbox.com/mapbox-assembly/v0.23.2/assembly.min.css" rel="stylesheet">
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<style>
+body { margin:0; padding:0; }
+#map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+
+   </head>
+   <body>
+
+
+
+<style>
+
+
+.map-overlay-3 {
+    position: absolute;
+    height: 360px;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.8);
+    font-family: Arial, sans-serif;
+/*    overflow: auto;*/
+    border-radius: 3px;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    }
+
+
+</style>
+
+
+<div id='map'></div>
+
+
+<div id='btn-menu'>
+
+<div class='map-overlay-3'>
+
+      <div class="container mt-3">
+ 
+         <div class="btn-group dropright">
+            <button class="btn btn-primary dropdown-toggle"
+               type="button"
+               style="background-color: #bebada; color: black;"
+               id="dropdownMenuButton" data-toggle="dropdown">
+             Ile de France et International
+
+            </button>
+               <div class="dropdown-menu">
+      <h5 class="dropdown-header">Coordonnateur</h5>
+      <a class="dropdown-item" href="#">Paul Merlin</a>
+      <h5 class="dropdown-header">Ingénieur général</h5>
+      <a class="dropdown-item" href="#">Hélène GUIGNARD</a>
+      <a class="dropdown-item" href="#">Jean-Louis ROUSSEL</a>
+      <a class="dropdown-item" href="#">Jean-Christophe PAILLE</a>
+      <a class="dropdown-item" href="#">Jean-Dominique BAYART</a>
+      <a class="dropdown-item" href="#">Catherine PERRY</a>
+    </div>
+         </div>
+
+
+      <div class="btn-group dropright">
+          <button class="btn btn-primary dropdown-toggle"
+            type="button"
+            style="background-color: #fb8072; color: black ; top : 50px; left : -225px"
+            id="dropdownMenuButton" data-toggle="dropdown">
+            Nord-Est
+            </button>
+               <div class="dropdown-menu">
+      <h5 class="dropdown-header">Coordonnateur</h5>
+      <a class="dropdown-item" href="#">Yves ROYER</a>
+      <h5 class="dropdown-header">Ingénieur général</h5>
+      <a class="dropdown-item" href="#">Gilles BURBAN</a>
+      <a class="dropdown-item" href="#">Gilles LE LARD</a>
+      <a class="dropdown-item" href="#">Fabienne DEJAGER-SPECQ</a>
+      <a class="dropdown-item" href="#">Patrick WEBER</a>
+    </div>
+         </div>
+
+      <div class="btn-group dropright">
+          <button class="btn btn-primary dropdown-toggle"
+            type="button"
+            style="background-color: #8dd3c7; color: black; top : 100px; left : -323px"
+            id="dropdownMenuButton" data-toggle="dropdown">
+            Centre-Est
+            </button>
+               <div class="dropdown-menu">
+      <h5 class="dropdown-header">Coordonnateur</h5>
+      <a class="dropdown-item" href="#">Anne LE HY</a>
+      <h5 class="dropdown-header">Ingénieur général</h5>
+      <a class="dropdown-item" href="#">Eric MALLET</a>
+      <a class="dropdown-item" href="#">Gilles PELURSON</a>
+      <a class="dropdown-item" href="#">Yves CONFESSON</a>
+      <a class="dropdown-item" href="#">Maclou VIOT</a>
+      <a class="dropdown-item" href="#">Benoît SERMAGE</a>
+    </div>
+         </div>
+
+
+        <div class="btn-group dropright">
+          <button class="btn btn-primary dropdown-toggle"
+            type="button"
+            style="background-color: #80b1d3; color: black; top : 150px; left : -432px"
+            id="dropdownMenuButton" data-toggle="dropdown">
+            Ouest
+            </button>
+               <div class="dropdown-menu">
+      <h5 class="dropdown-header">Coordonnateur</h5>
+      <a class="dropdown-item" href="#">Pascal WEHRLE</a>
+      <h5 class="dropdown-header">Ingénieur général</h5>
+      <a class="dropdown-item" href="#">Laurence DELVA</a>
+      <a class="dropdown-item" href="#">Marc GIRODO</a>
+      <a class="dropdown-item" href="#">Philippe HERCOUET</a>
+      <a class="dropdown-item" href="#">Béatrice ROLLAND</a>
+    </div>
+         </div>    
+
+
+        <div class="btn-group dropright">
+          <button class="btn btn-primary dropdown-toggle"
+            type="button"
+            style="background-color: #ffffb3; color: black; top : 200px; left : -511px"
+            id="dropdownMenuButton" data-toggle="dropdown">
+            Centre-Sud-Ouest
+            </button>
+               <div class="dropdown-menu">
+      <h5 class="dropdown-header">Coordonnateur</h5>
+      <a class="dropdown-item" href="#">Yann DORSEMAINE</a>
+      <h5 class="dropdown-header">Ingénieur général</h5>
+      <a class="dropdown-item" href="#">François BONNET</a>
+      <a class="dropdown-item" href="#">Christine MOURRIERAS</a>
+      <a class="dropdown-item" href="#">Alain SCHOST</a>
+      <a class="dropdown-item" href="#">Yves COCHE</a>
+      <a class="dropdown-item" href="#">Christian SALABERT</a>
+    </div>
+         </div>   
+
+
+
+        <div class="btn-group dropright">
+          <button class="btn btn-primary dropdown-toggle"
+            type="button"
+            style="background-color: #fdb462; color: black; top : 250px; left : -670px"
+            id="dropdownMenuButton" data-toggle="dropdown">
+            Sud
+            </button>
+               <div class="dropdown-menu">
+      <h5 class="dropdown-header">Coordonnateur</h5>
+      <a class="dropdown-item" href="#">François GOUSSÉ</a>
+      <h5 class="dropdown-header">Ingénieur général</h5>
+      <a class="dropdown-item" href="#">Jean-Pierre LILAS</a>
+      <a class="dropdown-item" href="#">Marie-José LAFONT</a>
+      <a class="dropdown-item" href="#">Jean CEZARD</a>
+      <a class="dropdown-item" href="#">René-Paul LOMI</a>
+      <a class="dropdown-item" href="#">Philippe TEJEDOR</a>
+      <a class="dropdown-item" href="#">Bernard VIU</a>
+    </div>
+         </div>   
+
+
+      <div class="btn-group dropright">
+        <button class="btn btn-primary dropdown-toggle"
+            type="button"
+            style="background-color: #fb8072; color: black; top : 300px; left : -735px"
+            id="dropdownMenuButton" data-toggle="dropdown">
+            Outre-mer
+            </button>
+               <div class="dropdown-menu">
+      <h5 class="dropdown-header">Coordonnateur</h5>
+      <a class="dropdown-item" href="#">Dominique PÉLISSIÉ</a>
+    </div>
+         </div>   
+
+ 
+      </div>
+        <script src="main.js"></script>
+
+   </body>
+</html>
