@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    // add mapbox links and style the map
+    <meta charset='utf-8' />
+    <title>Laughlin Housing Variance</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.css' rel='stylesheet' />
+
+
+<style>
+
+/* Proper comment for CSS */
+body {
+ margin:0;
+ padding:0;
+}
+
+/* style map - a css unique id */
+#map {
+ position:absolute;
+ top:0;
+ bottom:0;
+ width:100%;
+}
+
+/* style menu - a css unique id */
+#menu {
+        position: absolute;
+        left: 480px;
+        top: 10px;
+        background: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 4px;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+}
+
+
+/* style popup - a css .class */
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+/* style legend - a css class */
+.legend {
+    background-color: #fff;
+    border-radius: 3px;
+    bottom: 30px;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.50);
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 12px;
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+/* style legend - a css class */
+.legend h4 {
+    margin: 0 0 5px;
+        margin-right: 5px;
+}
+
+/* style legend - a css class */
+.legend div span {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 5px;
+    width: 10px;
+}
+
+</style>
+
+
+</head>
+<body>
+
+<!-- identify the map -->
+<div id='map'></div>
+
+<!-- identify one legend for each of 3 variances -->
+<div id='Bed-legend' class='legend' style='display: visible;'>
+    <h4>Colors By Bedroom Variance</h4>
+    <div><span style='background-color: #4575b4'></span>Yardi lower in beds</div>
+    <div><span style='background-color: #54278f'></span>Yardi equals Plan</div>
+    <div><span style='background-color: #fcc5c0'></span>Yardi higher by 1 beds</div>
+    <div><span style='background-color: #f768a1'></span>Yardi higher by 2 beds</div>
+    <div><span style='background-color: #7a0177'></span>Yardi higher by 3+ beds</div>
+</div>
+<div id='Bath-legend' class='legend' style='display: none;'>
+    <h4>Colors By Bathroom Variance</h4>
+    <div><span style='background-color: #4575b4'></span>Yardi lower in baths</div>
+    <div><span style='background-color: #54278f'></span>Yardi equals Plan</div>
+    <div><span style='background-color: #fcc5c0'></span>Yardi higher by 0.5 baths</div>
+    <div><span style='background-color: #f768a1'></span>Yardi higher by 1 bath</div>
+    <div><span style='background-color: #7a0177'></span>Yardi higher by 2+ baths</div>
+</div>
+<div id='Sqft-legend' class='legend' style='display: none;'>
+    <h4>Colors By Sq Ft Variance</h4>
+    <div><span style='background-color: #0c2c84'></span>Yardi lower: 644 - 858</div>
+    <div><span style='background-color: #fd8d3c'></span>Yardi lower: 431 - 644</div>
+    <div><span style='background-color: #c6dbef'></span>Yardi lower: 50 - 431</div>
+    <div><span style='background-color: #fcc5c0'></span>Yardi equals Plan (+ or - 50)</div>
+    <div><span style='background-color: #41ab5d'></span>Yardi higher by > 50 </div>
+</div>
+
+<div id='menu'>
+    <fieldset>
+    <legend>Laughlin Homes by Variance Type:</legend>
+    <input id='Bedroom' type='radio' name='rtoggle' value='Bed_Varian' checked='checked'>
+    <label for='Bedroom'>bedrooms</label>
+    <input id='Bathroom' type='radio' name='rtoggle' value='Bath_Varia' >
+    <label for='Bathroom'>bathrooms</label>
+    <input id='Sq_Feet' type='radio' name='rtoggle' value='Sq_Ft_Vari' >
+    <label for='Sq_Feet'>square feet</label>
+    </fieldset>
+</div>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoidGtheW5lMjMiLCJhIjoiN2ZuVll5MCJ9.INSHe8gm7HMfO8HZPUuAhg';
+
+var map = new mapboxgl.Map({
+    container: 'map',
+    // use any style; this is a predefined mapbox style
+    style: 'mapbox://styles/mapbox/satellite-streets-v10',
+    center: [-100.790, 29.352],
+    zoom: 14.9
+});
+
+// add navigational control
+var nav = new mapboxgl.NavigationControl();
+map.addControl(nav, 'top-right');
+
+// define variables
+var layerList = document.getElementById('menu');
+var inputs = layerList.getElementsByTagName('input');
+var bedLegendEl = document.getElementById('Bed-legend');
+var bathLegendEl = document.getElementById('Bath-legend');
+var sqftLegendEl = document.getElementById('Sqft-legend');
+
+
+// define functions
+document.getElementById('menu').addEventListener('click', function switchLayer(layer) {
+    var layerId = layer.target.id;
+    console.log(layerId)
+    // var visibility = map.getLayoutProperty(layerId, 'visibility');
+    map.setLayoutProperty(layerId, 'visibility', 'visible');
+    // set the legend
+    // If id = Bed
+    if (layerId === 'Bedroom') {
+       bedLegendEl.style.display = 'block';
+       bathLegendEl.style.display = 'none';
+       sqftLegendEl.style.display = 'none';
+       map.setLayoutProperty('Bedroom', 'visibility', 'visible');
+       map.setLayoutProperty('Bathroom', 'visibility', 'none');
+       map.setLayoutProperty('Sq_Feet', 'visibility', 'none');
+       }
+     // If id = Bath
+     if (layerId === 'Bathroom') {
+     bedLegendEl.style.display = 'none';
+     bathLegendEl.style.display = 'block';
+     sqftLegendEl.style.display = 'none';
+     map.setLayoutProperty('Bedroom', 'visibility', 'none');
+     map.setLayoutProperty('Sq_Feet', 'visibility', 'none');
+      }
+    // Else id = Sq_Ft
+     else {
+     bedLegendEl.style.display = 'none';
+     bathLegendEl.style.display = 'none';
+     sqftLegendEl.style.display = 'block';
+     map.setLayoutProperty('Bedroom', 'visibility', 'none');
+     map.setLayoutProperty('Bathroom', 'visibility', 'none');
+     }
+  });
+
+
+map.on('load', function () {
+        // source is a TMK tileset; same source for all layers
+      map.addSource('laughlincombined4326', {
+          type: 'vector',
+          url: 'mapbox://tkayne23.7gg2xn4y'
+      });
+
+      // add variance by bedrooms to paint units
+      // can be controlled by either the filter or visibility option
+      map.addLayer({
+          'id': 'Bedroom',
+          'type': 'fill',
+          'source': 'laughlincombined4326',
+          'layout': {'visibility': 'visible'},
+          'source-layer': 'LaughlinForMapbox4326-8kt1ts',
+          'paint': {
+                'fill-color': {
+                'property': 'Bed_Varian',
+                'type': 'interval',
+                'stops': [
+                      [-5, '#4575b4'],
+                      [0, '#54278f'],
+                      [1, '#fcc5c0'],
+                      [2, '#f768a1'],
+                      [3, '#7a0177']
+                    ]
+                 },
+                'fill-outline-color': '#000000',
+                'fill-opacity': 0.9
+              }
+          });
+
+        /* add variance by bathrooms to paint units
+         can be controlled by either the filter or visibility option */
+        map.addLayer({
+          'id': 'Bathroom',
+          'type': 'fill',
+          'source': 'laughlincombined4326',
+          'layout': {'visibility': 'none'},
+          'source-layer': 'LaughlinForMapbox4326-8kt1ts',
+          'paint': {
+                'fill-color': {
+                'property': 'Bath_Varia',
+                'type': 'interval',
+                'stops': [
+                      [-5, '#4575b4'],
+                      [0, '#54278f'],
+                      [.5, '#fcc5c0'],
+                      [1, '#f768a1'],
+                      [2, '#7a0177']
+                    ]
+                 },
+                'fill-outline-color': '#000000',
+                'fill-opacity': 0.9
+              }
+          });
+
+          // add variance by square feet to paint units
+          // can be controlled by either the filter or visibility option
+          map.addLayer({
+          'id': 'Sq_Feet',
+          'type': 'fill',
+          'source': 'laughlincombined4326',
+          'layout': {'visibility': 'none'},
+          'source-layer': 'LaughlinForMapbox4326-8kt1ts',
+          'paint': {
+                'fill-color': {
+                'property': 'Sq_Ft_Vari',
+                'type': 'interval',
+                'stops': [
+                      [-858, '#0c2c84'],
+                      [-654, '#fd8d3c'],
+                      [-431, '#c6dbef'],
+                      [-50, '#fcc5c0'],
+                      [50, '#41ab5d']
+                    ]
+                 },
+                'fill-outline-color': '#000000',
+                'fill-opacity': 0.9
+              }
+          });
+
+      // always create the hover effect
+      map.addLayer({
+          'id': 'homes-fill-hover',
+          'type': 'fill',
+          'source': 'laughlincombined4326',
+          'source-layer': 'LaughlinForMapbox4326-8kt1ts',
+          'layout': {'visibility': 'visible'},
+          'paint': {
+          'fill-color': '#db1e11',
+          'fill-outline-color': '#000000',
+          'fill-opacity': 1
+          },
+          'filter': ['==', 'addr_house', '']
+      });
+
+      // layer to only show that unit, thus making a hover effect.
+      // it should adjust to the active layer or keep at homes-fill-hover
+      // it needs to match the current layer
+      // features is key
+
+      map.on('mousemove', function(e) {
+          map.getCanvas().style.cursor = 'pointer';
+          var features = map.queryRenderedFeatures(e.point, { layers: ['Bedroom'] });
+          if (features.length) {
+              map.setFilter('homes-fill-hover', ['==', 'addr_house', features[0].properties.addr_house]);
+          } else {
+              map.setFilter('homes-fill-hover', ['==', 'addr_house', '']);
+          }
+      });
+
+      // Reset the state-fills-hover layer's filter when the mouse leaves the map
+      map.on('mouseout', function() {
+          map.setFilter('homes-fill-hover', ['==', 'addr_house', '']);
+      });
+
+  // When a click event occurs near a polygon, open a popup at the location of
+  // the feature, with description HTML from its properties.
+  map.on('click', function (e) {
+      var features = map.queryRenderedFeatures(e.point, { layers: ['Bedroom'] });
+      if (!features.length) {
+          return;
+      }
+
+      var feature = features[0];
+      // give popup info to display
+      var popup = new mapboxgl.Popup()
+          .setLngLat(map.unproject(e.point))
+          .setHTML('<div id="popup" class="popup" style="z-index: 10;"> <h4> Unit Details: </h4>' +
+              '<ul class="list-group">' +
+              '<li class="list-group-item"> Unit #: ' + feature.properties['Address'] + " </li>" +
+              '<li class="list-group-item"> from ' + feature.properties['Yardi_info'] + " </li>" +      '<li class="list-group-item"> from ' + feature.properties['Reno_Plan'] + " </li>" +
+              '<li class="list-group-item">  Renovation Unit Type: ' + feature.properties['Reno_Unit_'] + " </li>" + '</ul> </div>')
+          .addTo(map);
+    });
+
+  });
+
+  </script>
+
+  </body>
+  </html>

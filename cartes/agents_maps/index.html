@@ -28,18 +28,20 @@ body { margin:0; padding:0; }
 
 <style>
 
+.addEvents {pointer-events: all}
 
 .map-overlay-3 {
     position: absolute;
     height: 360px;
     width: 250px;
-    background: rgba(255, 255, 255, 0.8);
+    background: transparent;
     font-family: Arial, sans-serif;
     border-radius: 3px;
     opacity: :0;
     z-index: 1;
     top: 10px;
     left: 10px;
+    pointer-events: none;
     }
 
 /*Menu de configuration couche*/
@@ -101,11 +103,11 @@ body { margin:0; padding:0; }
 
       <div class="container mt-3">
  
-         <div class="btn-group dropright">
+         <div class="btn-group dropright addEvents">
             <button class="btn btn-primary dropdown-toggle"
                type="button"
                style="background-color: #bebada; color: black;"
-               id="dropdownMenuButton" data-toggle="dropdown">
+               id="dropdownMenuButton1" data-toggle="dropdown">
              Ile de France et International
 
             </button>
@@ -114,124 +116,124 @@ body { margin:0; padding:0; }
       <a class="dropdown-item" href="#" data-layer="agents" onclick="activeLayer(this)">Paul Merlin</a>
 
       <h5 class="dropdown-header">Ingénieur général</h5>
-      <a class="dropdown-item" href="#">Hélène GUIGNARD</a>
-      <a class="dropdown-item" href="#">Jean-Louis ROUSSEL</a>
-      <a class="dropdown-item" href="#">Jean-Christophe PAILLE</a>
-      <a class="dropdown-item" href="#">Jean-Dominique BAYART</a>
-      <a class="dropdown-item" href="#">Catherine PERRY</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Hélène GUIGNARD</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Jean-Louis ROUSSEL</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Jean-Christophe PAILLE</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Jean-Dominique BAYART</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Catherine PERRY</a>
     </div>
          </div>
 
 
-      <div class="btn-group dropright">
+      <div class="btn-group dropright addEvents">
           <button class="btn btn-primary dropdown-toggle"
             type="button"
             style="background-color: #fb8072; color: black ; top : 50px; left : -225px"
-            id="dropdownMenuButton" data-toggle="dropdown">
+            id="dropdownMenuButton2" data-toggle="dropdown">
             Nord-Est
             </button>
                <div class="dropdown-menu">
       <h5 class="dropdown-header">Coordonnateur</h5>
-      <a class="dropdown-item" href="#">Yves ROYER</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Yves ROYER</a>
       <h5 class="dropdown-header">Ingénieur général</h5>
-      <a class="dropdown-item" href="#">Gilles BURBAN</a>
-      <a class="dropdown-item" href="#">Gilles LE LARD</a>
-      <a class="dropdown-item" href="#">Fabienne DEJAGER-SPECQ</a>
-      <a class="dropdown-item" href="#">Patrick WEBER</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Gilles BURBAN</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Gilles LE LARD</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Fabienne DEJAGER-SPECQ</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Patrick WEBER</a>
     </div>
          </div>
 
-      <div class="btn-group dropright">
+      <div class="btn-group dropright addEvents">
           <button class="btn btn-primary dropdown-toggle"
             type="button"
             style="background-color: #8dd3c7; color: black; top : 100px; left : -323px"
-            id="dropdownMenuButton" data-toggle="dropdown">
+            id="dropdownMenuButton7" data-toggle="dropdown">
             Centre-Est
             </button>
                <div class="dropdown-menu">
       <h5 class="dropdown-header">Coordonnateur</h5>
-      <a class="dropdown-item" href="#">Anne LE HY</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Anne LE HY</a>
       <h5 class="dropdown-header">Ingénieur général</h5>
-      <a class="dropdown-item" href="#">Eric MALLET</a>
-      <a class="dropdown-item" href="#">Gilles PELURSON</a>
-      <a class="dropdown-item" href="#">Yves CONFESSON</a>
-      <a class="dropdown-item" href="#">Maclou VIOT</a>
-      <a class="dropdown-item" href="#">Benoît SERMAGE</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Eric MALLET</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Gilles PELURSON</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Yves CONFESSON</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Maclou VIOT</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Benoît SERMAGE</a>
     </div>
          </div>
 
 
-        <div class="btn-group dropright">
+        <div class="btn-group dropright addEvents">
           <button class="btn btn-primary dropdown-toggle"
             type="button"
             style="background-color: #80b1d3; color: black; top : 150px; left : -432px"
-            id="dropdownMenuButton" data-toggle="dropdown">
+            id="dropdownMenuButton3" data-toggle="dropdown">
             Ouest
             </button>
                <div class="dropdown-menu">
       <h5 class="dropdown-header">Coordonnateur</h5>
-      <a class="dropdown-item" href="#">Pascal WEHRLE</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Pascal WEHRLE</a>
       <h5 class="dropdown-header">Ingénieur général</h5>
-      <a class="dropdown-item" href="#">Laurence DELVA</a>
-      <a class="dropdown-item" href="#">Marc GIRODO</a>
-      <a class="dropdown-item" href="#">Philippe HERCOUET</a>
-      <a class="dropdown-item" href="#">Béatrice ROLLAND</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Laurence DELVA</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Marc GIRODO</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Philippe HERCOUET</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Béatrice ROLLAND</a>
     </div>
          </div>    
 
 
-        <div class="btn-group dropright">
+        <div class="btn-group dropright addEvents">
           <button class="btn btn-primary dropdown-toggle"
             type="button"
             style="background-color: #ffffb3; color: black; top : 200px; left : -511px"
-            id="dropdownMenuButton" data-toggle="dropdown">
+            id="dropdownMenuButton6" data-toggle="dropdown">
             Centre-Sud-Ouest
             </button>
                <div class="dropdown-menu">
       <h5 class="dropdown-header">Coordonnateur</h5>
-      <a class="dropdown-item" href="#">Yann DORSEMAINE</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Yann DORSEMAINE</a>
       <h5 class="dropdown-header">Ingénieur général</h5>
-      <a class="dropdown-item" href="#">François BONNET</a>
-      <a class="dropdown-item" href="#">Christine MOURRIERAS</a>
-      <a class="dropdown-item" href="#">Alain SCHOST</a>
-      <a class="dropdown-item" href="#">Yves COCHE</a>
-      <a class="dropdown-item" href="#">Christian SALABERT</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">François BONNET</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Christine MOURRIERAS</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Alain SCHOST</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Yves COCHE</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Christian SALABERT</a>
     </div>
          </div>   
 
 
 
-        <div class="btn-group dropright">
+        <div class="btn-group dropright addEvents">
           <button class="btn btn-primary dropdown-toggle"
             type="button"
             style="background-color: #fdb462; color: black; top : 250px; left : -670px"
-            id="dropdownMenuButton" data-toggle="dropdown">
+            id="dropdownMenuButton4" data-toggle="dropdown">
             Sud
             </button>
                <div class="dropdown-menu">
       <h5 class="dropdown-header">Coordonnateur</h5>
-      <a class="dropdown-item" href="#">François GOUSSÉ</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">François GOUSSÉ</a>
       <h5 class="dropdown-header">Ingénieur général</h5>
-      <a class="dropdown-item" href="#">Jean-Pierre LILAS</a>
-      <a class="dropdown-item" href="#">Marie-José LAFONT</a>
-      <a class="dropdown-item" href="#">Jean CEZARD</a>
-      <a class="dropdown-item" href="#">René-Paul LOMI</a>
-      <a class="dropdown-item" href="#">Philippe TEJEDOR</a>
-      <a class="dropdown-item" href="#">Bernard VIU</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Jean-Pierre LILAS</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Marie-José LAFONT</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Jean CEZARD</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">René-Paul LOMI</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Philippe TEJEDOR</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Bernard VIU</a>
     </div>
          </div>   
 
 
-      <div class="btn-group dropright">
+      <div class="btn-group dropright addEvents">
         <button class="btn btn-primary dropdown-toggle"
             type="button"
             style="background-color: #fb8072; color: black; top : 300px; left : -735px"
-            id="dropdownMenuButton" data-toggle="dropdown">
+            id="dropdownMenuButton5" data-toggle="dropdown">
             Outre-mer
             </button>
                <div class="dropdown-menu">
       <h5 class="dropdown-header">Coordonnateur</h5>
-      <a class="dropdown-item" href="#">Dominique PÉLISSIÉ</a>
+      <a class="dropdown-item" href="#" onclick="activeLayer(this)">Dominique PÉLISSIÉ</a>
     </div>
          </div>   
 

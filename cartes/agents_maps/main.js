@@ -119,7 +119,7 @@ break;
         "id": "agents",
         "type": "circle",
         "source": "agents",
-        "layout": {'visibility': 'visible'},
+        "layout": {'visibility': 'none'},
         "paint": {
             'circle-color': ['match', ['get', 'coordonnateur'], // get the property
             'Paul MERLIN', '#8dd3c7',  
@@ -159,19 +159,6 @@ break;
         }
         hoveredStateId =  null;
     });
-
-
-
-    //Configuration changement des couches
-
-
-        switchlayer = function (lname) {
-            if (document.getElementById(lname + "CB").checked) {
-                map.setLayoutProperty(lname, 'visibility', 'visible');
-            } else {
-                map.setLayoutProperty(lname, 'visibility', 'none');
-           }
-        }
 
 
 }
@@ -230,7 +217,7 @@ function toggleLayer(e) {
 }
 
 var toggleableLayers = [
-  {id:1,label:"Départements",layers:['dep_maps', 'state-fills', 'state-borders']}, 
+  {id:1,label:"Départements",layers:['dep_maps', 'state-fills', 'state-borders']},  
   {id:2,label:"Établissements",layers:['agents']}                       
   ];
 
@@ -242,13 +229,23 @@ for (var i = 0; i < toggleableLayers.length; i++) {
     link.className = 'active';
     link.textContent = toggleableLayer.label;
     link.id = i;
-    link.onclick = (e)=>toggleLayer(e);                         
+    link.onclick = toggleLayer;                         
                                                     
 var layers = document.getElementById('menu');  layers.appendChild(link); }
 
 function activeLayer (element){
 	console.log("activeLayer", element.classList)
+	var currentlayer = element.attributes["data-layer"].value
 	if (!element.classList.contains("activeLayer")){
 		element.classList.add("activeLayer")
+		map.setLayoutProperty(currentlayer, 'visibility', 'visible')
+		map.setFilter('agents', ["==", 'coordonnateur', 'Paul MERLIN' ])
+	} else {
+		element.classList.remove("activeLayer")
+		map.setLayoutProperty(currentlayer, 'visibility', 'none')
 	}
+	
+
+
+
 }
