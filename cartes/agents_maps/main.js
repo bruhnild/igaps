@@ -138,7 +138,6 @@ break;
 
 
 
-
     // When the user moves their mouse over the state-fill layer, we'll update the
     // feature state for the feature under the mouse.
     map.on("mousemove", "state-fills", function(e) {
@@ -164,11 +163,6 @@ break;
 }
 
 //region pop-up
-
-// map.on('mousemove', function (e) {
-// var features = map.queryRenderedFeatures(e.point, { layers: ['states-fills'] });
-// map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
-// });
 
 
 // Change the cursor to a pointer when the mouse is over the states layer.
@@ -233,19 +227,23 @@ for (var i = 0; i < toggleableLayers.length; i++) {
                                                     
 var layers = document.getElementById('menu');  layers.appendChild(link); }
 
+
+
 function activeLayer (element){
 	console.log("activeLayer", element.classList)
 	var currentlayer = element.attributes["data-layer"].value
+	var dataName = element.attributes["data-coord"].value
+    var stateFilter = ['in', 'coordonnateur', dataName]
+    console.log(dataName)
 	if (!element.classList.contains("activeLayer")){
 		element.classList.add("activeLayer")
 		map.setLayoutProperty(currentlayer, 'visibility', 'visible')
-		map.setFilter('agents', ["==", 'coordonnateur', 'Paul MERLIN' ])
+		map.setFilter('agents',stateFilter)
+
 	} else {
 		element.classList.remove("activeLayer")
 		map.setLayoutProperty(currentlayer, 'visibility', 'none')
 	}
-	
-
-
 
 }
+
