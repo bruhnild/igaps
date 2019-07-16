@@ -21,10 +21,15 @@ map.on('styledata', function () {addSources();addLayers();loadImages(); });
 function addSources () { 
 
 // maps
-
 map.addSource('dep_maps', {
 type: 'vector',
 url: 'mapbox://vincentfaucher.bnskcbaw'});
+
+// agents
+map.addSource('agents', {
+"type": "geojson",
+"data": agents
+});
    
 // regions   
 map.addSource("region", {
@@ -33,11 +38,7 @@ map.addSource("region", {
 "data": "./region.geojson"});
 
 
-// regions   
-map.addSource("agents", {
-"type": "geojson",
-'generateId': true,
-"data": "./agents.geojson"});
+
 
 }
 

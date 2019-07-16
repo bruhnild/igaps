@@ -1,3718 +1,1885 @@
  var agents = 
  {
-	"type": "FeatureCollection",
-	"name": "agents",
-	"features": [{
-			"type": "Feature",
-			"properties": {
-				"nature": "cabinet\/bureau du cabinet ministere",
-				"type": "Service central Ministère de l'Agriculture et de l'Alimentation",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.422227, 48.850922]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cabinet\/bureau du cabinet ministere",
-				"type": "Service central Ministère de l'Agriculture et de l'Alimentation",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.483653, 43.535415]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cabinet\/bureau du cabinet ministere",
-				"type": "Service central Ministère de l'Agriculture et de l'Alimentation",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.318236, 48.855435]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cabinet\/bureau du cabinet ministere",
-				"type": "Service central Ministère de l'Agriculture et de l'Alimentation",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.318236, 48.855435]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Hélène GUIGNARD",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.437586, 48.628402]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Hélène GUIGNARD",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.447964, 48.591345]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "sg",
-				"type": "Administration centrale Ministère de l'Agriculture et de l'Alimentation",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "museum"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.318236, 48.855435]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "sg",
-				"type": "Administration centrale Ministère de l'Agriculture et de l'Alimentation",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "museum"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.068254, 49.417009]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "eplefpa",
-				"type": "Enseignement public agricole",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.062738, 48.90356]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddpp",
-				"type": "Direction Départementale de la Protection des Populations",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.366015, 48.861626]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddpp",
-				"type": "Direction Départementale de la Protection des Populations",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.215468, 48.897979]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ministere",
-				"type": "Ministère de l'Agriculture et de l'ALimentation",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.318236, 48.855435]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "dgal",
-				"type": "Direction générale de l'alimentation ",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.239664, 48.893887]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "dgpe",
-				"type": "La direction générale de la performance économique et environnementale des entreprises",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.318034, 48.85498]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cgaaer",
-				"type": "Le Conseil général de l’alimentation, de l’agriculture et des espaces ruraux ",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.303997, 48.840228]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [9.490708, 42.314008]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-61.563758, 16.096789]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-61.02232, 14.640679]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-61.588683, 16.179523]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asma",
-				"type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.319425, 48.855026]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [9.490708, 42.314008]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [55.291385, -21.139038]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-61.005597, 14.607082]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.467525, 48.832995]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asma",
-				"type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.38778, 48.868133]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [55.516803, -21.309197]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-52.643723, 5.166699]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-53.602819, 4.99364]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.872166, 43.645035]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-1.676349, 46.441756]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.868212, 43.676719]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-61.66126, 16.203925]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.284033, 48.860707]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.872878, 43.633968]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asma",
-				"type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.368628, 48.831588]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [55.496439, -20.909986]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-61.762785, 16.065509]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cirad",
-				"type": "Centre de coopération internationale en recherche agronomique pour le développement",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.283186, 48.862155]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cgaaer",
-				"type": "Le Conseil général de l’alimentation, de l’agriculture et des espaces ruraux ",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.261382, 45.835408]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cgaaer",
-				"type": "Le Conseil général de l’alimentation, de l’agriculture et des espaces ruraux ",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.179885, 49.102778]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asma",
-				"type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.303997, 48.840228]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asma",
-				"type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.396101, 48.84534]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asma",
-				"type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.194894, 48.883901]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asma",
-				"type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.25267, 48.889956]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asma",
-				"type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture",
-				"coordonnateur": "Paul MERLIN",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.285564, 48.911116]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddpp",
-				"type": "Direction Départementale de la Protection des Populations",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.65431, 48.535726]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddpp",
-				"type": "Direction Départementale de la Protection des Populations",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.037992, 48.809491]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddpp",
-				"type": "Direction Départementale de la Protection des Populations",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.139399, 48.796008]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddpp",
-				"type": "Direction Départementale de la Protection des Populations",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.077531, 49.037154]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddpp",
-				"type": "Direction Départementale de la Protection des Populations",
-				"coordonnateur": "Hélène GUIGNARD",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.445364, 48.625862]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddpp",
-				"type": "Direction Départementale de la Protection des Populations",
-				"coordonnateur": "Hélène GUIGNARD",
-				"icon": "marker"
-			},
-			"geometry": null
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddpp",
-				"type": "Direction Départementale de la Protection des Populations",
-				"coordonnateur": "Hélène GUIGNARD",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.456027, 48.783824]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddpp",
-				"type": "Direction Départementale de la Protection des Populations",
-				"coordonnateur": "Hélène GUIGNARD",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.357781, 48.743016]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.677956, 48.537649]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.132379, 48.797166]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.119963, 48.793335]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.078786, 49.034328]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Hélène GUIGNARD",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.475484, 48.615477]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.273215, 45.586089]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.879672, 45.527805]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.251179, 45.38999]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.712722, 45.180084]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.776017, 45.081599]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.600713, 45.362545]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.236155, 45.727033]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.319855, 45.154716]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.746993, 45.194533]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.074468, 45.607894]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.351282, 45.401451]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.061602, 46.038381]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.398032, 45.439918]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.678471, 45.41856]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.919862, 45.589159]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.909276, 45.697048]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.377206, 45.661145]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.343098, 45.272166]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Yves CONFESSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.53154, 45.483488]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.791119, 45.935016]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.34194, 45.957642]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.810771, 46.120224]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.221782, 46.206677]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.45828, 46.130905]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.606748, 46.340272]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.351901, 46.561668]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.157449, 47.61701]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.366967, 47.816184]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.497711, 47.687528]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.59587, 47.448428]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.121217, 45.925029]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.48654, 46.366526]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.956766, 45.855157]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.413701, 46.077532]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.436773, 46.082372]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.133245, 45.903867]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.13324, 45.910283]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.233514, 46.185968]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.40923, 46.077989]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.477793, 46.369129]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.557105, 47.799129]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.562967, 47.807955]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.294936, 48.19457]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Gilles PELURSON",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.572688, 47.792705]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.349912, 47.624717]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.078761, 47.347387]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.05288, 47.324671]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.062893, 47.287487]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.984314, 47.22612]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.350636, 46.910041]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.007496, 47.242024]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.003885, 47.23981]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.8082, 47.514074]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.147235, 47.106048]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.727837, 47.162039]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.336807, 47.153833]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.938007, 47.230449]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.805207, 47.487385]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.494297, 47.391937]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.677712, 47.256394]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.452835, 46.821126]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.520823, 47.460604]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.93168, 47.063234]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Benoît SERMAGE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.163323, 46.987004]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.442133, 44.913686]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.387969, 44.618062]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.675998, 44.542871]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.833088, 45.050511]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.601448, 44.73499]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.295573, 44.543109]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.071316, 45.0385]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.443622, 44.924403]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.344021, 45.22102]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.263138, 44.74858]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.130279, 44.357952]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.889505, 44.935293]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.747719, 44.561086]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.38067, 45.294176]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.890866, 45.032906]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.885559, 45.038639]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Eric MALLET",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.12363, 45.158864]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Anne LE HY",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.08549, 45.76984]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Anne LE HY",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.108599, 45.888141]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Anne LE HY",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.173563, 45.77513]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Anne LE HY",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.257777, 45.548482]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Anne LE HY",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.546492, 45.856985]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Anne LE HY",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.701596, 46.001937]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Anne LE HY",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.852634, 45.760036]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Anne LE HY",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.676007, 45.619249]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Anne LE HY",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.991248, 45.702677]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Anne LE HY",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.315209, 46.032983]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "ddt",
-				"type": "Direction Départementale des Territoires",
-				"coordonnateur": "Anne LE HY",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.76908, 45.585809]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "eplefpa",
-				"type": "Enseignement public agricole",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.646251, 48.679326]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "eplefpa",
-				"type": "Enseignement public agricole",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.15182, 48.813614]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "eplefpa",
-				"type": "Enseignement public agricole",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.054485, 48.899945]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "eplefpa",
-				"type": "Enseignement public agricole",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.062621, 48.903021]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "eplefpa",
-				"type": "Enseignement public agricole",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.062738, 48.90356]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "eplefpa",
-				"type": "Enseignement public agricole",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.062621, 48.903021]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "oncfs",
-				"type": "OFFICE NATIONAL DE LA CHASSE ET DE LA FAUNE SAUVAGE",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.299857, 48.880746]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "oncfs",
-				"type": "OFFICE NATIONAL DE LA CHASSE ET DE LA FAUNE SAUVAGE",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.915775, 48.675952]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "oncfs",
-				"type": "OFFICE NATIONAL DE LA CHASSE ET DE LA FAUNE SAUVAGE",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.194335, 48.617829]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "oncfs",
-				"type": "OFFICE NATIONAL CHASSE FAUNE SAUVAGE",
-				"coordonnateur": "Philippe TEJEDOR",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [7.20928, 43.790516]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "oncfs",
-				"type": "OFFICE NATIONAL CHASSE FAUNE SAUVAGE",
-				"coordonnateur": "Philippe TEJEDOR",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.397098, 43.583974]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "oncfs",
-				"type": "OFFICE NATIONAL CHASSE FAUNE SAUVAGE",
-				"coordonnateur": "Philippe TEJEDOR",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.429361, 43.54162]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "oncfs",
-				"type": "OFFICE NATIONAL CHASSE FAUNE SAUVAGE",
-				"coordonnateur": "Philippe TEJEDOR",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.465066, 43.535005]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "oncfs",
-				"type": "OFFICE NATIONAL CHASSE FAUNE SAUVAGE",
-				"coordonnateur": "Philippe TEJEDOR",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.47649, 43.53138]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.297798, 48.867715]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.297798, 48.867715]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "dger",
-				"type": "Direction Générale de l'Enseignement et de la Recherche",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.309401, 48.852999]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "dger",
-				"type": "Direction Générale de l'Enseignement et de la Recherche",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.864728, 43.648523]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [8.755313, 41.933564]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.174483, 48.690547]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-1.620764, 48.099337]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.434521, 43.528389]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.367177, 43.821874]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-61.570854, 16.241612]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.280801, 45.80658]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.875441, 43.606436]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.390851, 49.202008]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [45.222991, -12.776268]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.855505, 45.785121]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.054136, 47.353341]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.134389, 45.764487]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.422227, 48.850922]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.559635, 44.843262]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.422227, 48.850922]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.361063, 48.956801]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.910955, 47.854275]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [55.482248, -20.886419]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-52.31997, 4.940341]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.072706, 50.645347]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [7.73699, 48.581445]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-61.000545, 14.608126]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.995762, 47.239017]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [55.47018, -21.317396]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.485233, 43.625614]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.277539, 49.875219]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-1.557616, 47.222691]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.04032, 49.054268]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.082841, 49.432253]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.265306, 45.830928]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.266453, 45.837136]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "asp",
-				"type": "AGENCE DE SERVICES ET DE PAIEMENT",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [0.36377, 46.656774]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.422227, 48.850922]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.422227, 48.850922]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INSTITUT NATIONAL DE L'ORIGINE ET DE LA QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.422227, 48.850922]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "odeadom",
-				"type": "OFFICE DE DEVELOPPEMENT DE L ECONOMIE AGRICOLE D OUTRE MER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.422227, 48.850922]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "gipbio",
-				"type": "AGENCE FRANCAISE POUR LE DEVELOPPEMENT ET LA PROMOTION DE L'AGRICULTURE BIOLOGIQUE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.421227, 48.854102]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "agroparistech",
-				"type": "Institut des sciences et industries du vivant et de l'environnement",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.348786, 48.839317]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "agroparistech",
-				"type": "Institut des sciences et industries du vivant et de l'environnement",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.348786, 48.839317]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "agroparistech",
-				"type": "Institut des sciences et industries du vivant et de l'environnement",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.348786, 48.839317]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "agroparistech",
-				"type": "Institut des sciences et industries du vivant et de l'environnement",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.348786, 48.839317]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "agroparistech",
-				"type": "Institut des sciences et industries du vivant et de l'environnement",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.348786, 48.839317]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "agroparistech",
-				"type": "Institut des sciences et industries du vivant et de l'environnement",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.348786, 48.839317]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cez",
-				"type": "CENTRE D ENSEIGNEMENT ZOOTECHNIQUE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.828575, 48.643617]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [8.739293, 41.931053]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.27795, 49.881221]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.496843, 43.530196]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.568436, 44.856355]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.03078, 47.328651]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.145184, 49.119895]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.173782, 45.776226]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.396452, 43.306611]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.900755, 47.905858]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.074775, 49.381715]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "cnpf",
-				"type": "Centre national de la propriété forestière",
-				"coordonnateur": "Jean-Louis ROUSSEL",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-1.592872, 47.238668]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.594498, 44.843155]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-4.454607, 48.432002]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.820226, 43.951368]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.348345, 49.199778]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.379261, 48.975958]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.233157, 44.942138]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.899192, 47.915677]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [9.439129, 42.672129]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-1.700263, 48.128308]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-1.361063, 48.684559]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.048495, 47.261371]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [0.33651, 46.582683]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.452774, 43.608203]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.022607, 47.321016]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.867318, 43.603061]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-3.1626, 48.550218]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.069259, 50.633538]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.089835, 49.435358]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [8.736979, 41.920142]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.307587, 49.869044]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.606526, 47.477845]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.878572, 43.609181]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.840337, 43.879145]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.329284, 48.797676]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [0.476689, 44.828546]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.852634, 45.760036]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": null
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.859825, 43.5786]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.369773, 43.310938]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.181309, 45.780845]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-1.197841, 46.153971]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.883194, 44.905781]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.853961, 45.762822]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.179885, 49.102778]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.551583, 47.460787]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.568436, 44.856355]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.382048, 48.981503]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [7.76176, 48.577812]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.266872, 45.831408]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "fam",
-				"type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-3.357214, 47.743409]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.015554, 43.179407]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.353605, 49.184395]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.839082, 46.312619]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [0.687644, 47.396609]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [5.091321, 47.309066]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [0.097669, 43.853842]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-1.544909, 47.219933]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.452774, 43.608203]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.008554, 43.141102]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.861529, 43.559237]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [3.950683, 49.030678]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [1.901853, 43.901715]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [9.43759, 42.630491]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [7.361011, 48.100921]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.362024, 43.311352]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.4313, 44.900854]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.539494, 44.820042]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.884888, 44.898147]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.89263, 42.705651]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [0.476689, 44.828546]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-0.302829, 45.683302]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"nature": "inao",
-				"type": "INST NATIONAL ORIGINE QUALITE",
-				"coordonnateur": "Jean-Christophe PAILLE",
-				"icon": "marker"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [4.781055, 43.933209]
-			}
-		}
-	]
+"type": "FeatureCollection",
+"name": "agents",
+"features": [
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.490708, 42.314008 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.563758, 16.096789 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.02232, 14.640679 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.588683, 16.179523 ] } },
+{ "type": "Feature", "properties": { "nature": "asma", "type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.319425, 48.855026 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.467525, 48.832995 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 55.516803, -21.309197 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -52.643723, 5.166699 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -53.602819, 4.99364 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.045068, 43.921972 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.872166, 43.645035 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.676349, 46.441756 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.868212, 43.676719 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.66126, 16.203925 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.877782, 43.911906 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.872878, 43.633968 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 8.737128, 41.919477 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 55.496439, -20.909986 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.762785, 16.065509 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.283186, 48.862155 ] } },
+{ "type": "Feature", "properties": { "nature": "asma", "type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.303997, 48.840228 ] } },
+{ "type": "Feature", "properties": { "nature": "asma", "type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.396101, 48.84534 ] } },
+{ "type": "Feature", "properties": { "nature": "asma", "type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.194894, 48.883901 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.273215, 45.586089 ] } },
+{ "type": "Feature", "properties": { "nature": "asma", "type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.25267, 48.889956 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.65431, 48.535726 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.899192, 47.915677 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.879672, 45.527805 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.919862, 45.589159 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.909276, 45.697048 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.377206, 45.661145 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.343098, 45.272166 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.53154, 45.483488 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.221782, 46.206677 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.45828, 46.130905 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.606748, 46.340272 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.351901, 46.561668 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.157449, 47.61701 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.366967, 47.816184 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.497711, 47.687528 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.366015, 48.861626 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.59587, 47.448428 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.121217, 45.925029 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.48654, 46.366526 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.956766, 45.855157 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.413701, 46.077532 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.436773, 46.082372 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.133245, 45.903867 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.13324, 45.910283 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.233514, 46.185968 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.40923, 46.077989 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.477793, 46.369129 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.349912, 47.624717 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.078761, 47.347387 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.05288, 47.324671 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.062893, 47.287487 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.984314, 47.22612 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.350636, 46.910041 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.007496, 47.242024 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.003885, 47.23981 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.8082, 47.514074 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.147235, 47.106048 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.727837, 47.162039 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.336807, 47.153833 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.938007, 47.230449 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.805207, 47.487385 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.442133, 44.913686 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.387969, 44.618062 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.833088, 45.050511 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.601448, 44.73499 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.295573, 44.543109 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.071316, 45.0385 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.443622, 44.924403 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.344021, 45.22102 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.263138, 44.74858 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.130279, 44.357952 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.889505, 44.935293 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.76908, 45.585809 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.444104, 42.703272 ] } },
+{ "type": "Feature", "properties": { "nature": "oncfs", "type": "OFFICE NATIONAL DE LA CHASSE ET DE LA FAUNE SAUVAGE", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.299857, 48.880746 ] } },
+{ "type": "Feature", "properties": { "nature": "oncfs", "type": "OFFICE NATIONAL DE LA CHASSE ET DE LA FAUNE SAUVAGE", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.915775, 48.675952 ] } },
+{ "type": "Feature", "properties": { "nature": "oncfs", "type": "OFFICE NATIONAL DE LA CHASSE ET DE LA FAUNE SAUVAGE", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.194335, 48.617829 ] } },
+{ "type": "Feature", "properties": { "nature": "oncfs", "type": "OFFICE NATIONAL CHASSE FAUNE SAUVAGE", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures SUD\nOccitanie, Corse, Provence Alpes Côte d’Azur", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.20928, 43.790516 ] } },
+{ "type": "Feature", "properties": { "nature": "oncfs", "type": "OFFICE NATIONAL CHASSE FAUNE SAUVAGE", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures SUD\nOccitanie, Corse, Provence Alpes Côte d’Azur", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.397098, 43.583974 ] } },
+{ "type": "Feature", "properties": { "nature": "oncfs", "type": "OFFICE NATIONAL CHASSE FAUNE SAUVAGE", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures SUD\nOccitanie, Corse, Provence Alpes Côte d’Azur", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.429361, 43.54162 ] } },
+{ "type": "Feature", "properties": { "nature": "oncfs", "type": "OFFICE NATIONAL CHASSE FAUNE SAUVAGE", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures SUD\nOccitanie, Corse, Provence Alpes Côte d’Azur", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.465066, 43.535005 ] } },
+{ "type": "Feature", "properties": { "nature": "oncfs", "type": "OFFICE NATIONAL CHASSE FAUNE SAUVAGE", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures SUD\nOccitanie, Corse, Provence Alpes Côte d’Azur", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.47649, 43.53138 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.297798, 48.867715 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.297798, 48.867715 ] } },
+{ "type": "Feature", "properties": { "nature": "dger", "type": "Direction Générale de l'Enseignement et de la Recherche", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.309401, 48.852999 ] } },
+{ "type": "Feature", "properties": { "nature": "dger", "type": "Direction Générale de l'Enseignement et de la Recherche", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.864728, 43.648523 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.307587, 49.869044 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.350458, 48.949695 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.4313, 44.900854 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.069259, 50.633538 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.382048, 48.981503 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.76176, 48.577812 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 8.755313, 41.933564 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.048495, 47.261371 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.215468, 48.897979 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 45.192517, -12.847123 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.630533, 49.020014 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.174483, 48.690547 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.675998, 44.542871 ] } },
+{ "type": "Feature", "properties": { "nature": "cabinet\/bureau du cabinet ministere", "type": "Service central Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.318236, 48.855435 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.434521, 43.528389 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.367177, 43.821874 ] } },
+{ "type": "Feature", "properties": { "nature": "sg", "type": "Administration centrale Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.318236, 48.855435 ] } },
+{ "type": "Feature", "properties": { "nature": "aesn", "type": "Agence de l'eau Seine-Normandie", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": null },
+{ "type": "Feature", "properties": { "nature": "aesn", "type": "Agence de l'eau Seine-Normandie", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.355735, 48.962449 ] } },
+{ "type": "Feature", "properties": { "nature": "aesn", "type": "Agence de l'eau Seine-Normandie", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.220859, 48.895645 ] } },
+{ "type": "Feature", "properties": { "nature": "aesn", "type": "Agence de l'eau Seine-Normandie", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.220859, 48.895645 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.930711, 47.942115 ] } },
+{ "type": "Feature", "properties": { "nature": "aesn", "type": "Agence de l'eau Seine-Normandie", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.324311, 49.207613 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.422227, 48.850922 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.422227, 48.850922 ] } },
+{ "type": "Feature", "properties": { "nature": "odeadom", "type": "OFFICE DE DEVELOPPEMENT DE L ECONOMIE AGRICOLE D OUTRE MER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.422227, 48.850922 ] } },
+{ "type": "Feature", "properties": { "nature": "aesn", "type": "Agence de l'eau Seine-Normandie", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.278673, 48.194922 ] } },
+{ "type": "Feature", "properties": { "nature": "aesn", "type": "Agence de l'eau Seine-Normandie", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.220859, 48.895645 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INSTITUT NATIONAL DE L'ORIGINE ET DE LA QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.422227, 48.850922 ] } },
+{ "type": "Feature", "properties": { "nature": "agroparistech", "type": "Institut des sciences et industries du vivant et de l'environnement", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.348786, 48.839317 ] } },
+{ "type": "Feature", "properties": { "nature": "aesn", "type": "Agence de l'eau Seine-Normandie", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.231845, 49.422057 ] } },
+{ "type": "Feature", "properties": { "nature": "agroparistech", "type": "Institut des sciences et industries du vivant et de l'environnement", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.348786, 48.839317 ] } },
+{ "type": "Feature", "properties": { "nature": "agroparistech", "type": "Institut des sciences et industries du vivant et de l'environnement", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.348786, 48.839317 ] } },
+{ "type": "Feature", "properties": { "nature": "aesn", "type": "Agence de l'eau Seine-Normandie", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.789896, 49.398888 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.496843, 43.530196 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.747719, 44.561086 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.38067, 45.294176 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.890866, 45.032906 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.568436, 44.856355 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.03078, 47.328651 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.885559, 45.038639 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.145184, 49.119895 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.173782, 45.776226 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.396452, 43.306611 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.900755, 47.905858 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.074775, 49.381715 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.592872, 47.238668 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.76176, 48.577812 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.570854, 16.241612 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.551583, 47.460787 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.620764, 48.099337 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.280801, 45.80658 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.875441, 43.606436 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.12363, 45.158864 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.390851, 49.202008 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 45.222991, -12.776268 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.855505, 45.785121 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.08549, 45.76984 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.054136, 47.353341 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.134389, 45.764487 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.422227, 48.850922 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.559635, 44.843262 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.422227, 48.850922 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.361063, 48.956801 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.910955, 47.854275 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 55.482248, -20.886419 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -52.31997, 4.940341 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.072706, 50.645347 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.73699, 48.581445 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.000545, 14.608126 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.995762, 47.239017 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 55.47018, -21.317396 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.485233, 43.625614 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.277539, 49.875219 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.557616, 47.222691 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.04032, 49.054268 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.082841, 49.432253 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.265306, 45.830928 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.266453, 45.837136 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.36377, 46.656774 ] } },
+{ "type": "Feature", "properties": { "nature": "gipbio", "type": "AGENCE FRANCAISE POUR LE DEVELOPPEMENT ET LA PROMOTION DE L'AGRICULTURE BIOLOGIQUE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.421227, 48.854102 ] } },
+{ "type": "Feature", "properties": { "nature": "cez", "type": "CENTRE D ENSEIGNEMENT ZOOTECHNIQUE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.828575, 48.643617 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.108599, 45.888141 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.015554, 43.179407 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.839082, 46.312619 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.687644, 47.396609 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.091321, 47.309066 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.173563, 45.77513 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.097669, 43.853842 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.544909, 47.219933 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.452774, 43.608203 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.008554, 43.141102 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.257777, 45.548482 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.861529, 43.559237 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.361011, 48.100921 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.362024, 43.311352 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.539494, 44.820042 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.546492, 45.856985 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.884888, 44.898147 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.476689, 44.828546 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.302829, 45.683302 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.781055, 43.933209 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.701596, 46.001937 ] } },
+{ "type": "Feature", "properties": { "nature": "agroparistech", "type": "Institut des sciences et industries du vivant et de l'environnement", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.348786, 48.839317 ] } },
+{ "type": "Feature", "properties": { "nature": "agroparistech", "type": "Institut des sciences et industries du vivant et de l'environnement", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.348786, 48.839317 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.594498, 44.843155 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.054485, 48.899945 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.454607, 48.432002 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.820226, 43.951368 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.348345, 49.199778 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.233157, 44.942138 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.899192, 47.915677 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.439129, 42.672129 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.700263, 48.128308 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.048495, 47.261371 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.33651, 46.582683 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.452774, 43.608203 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.022607, 47.321016 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.867318, 43.603061 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.361063, 48.684559 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.1626, 48.550218 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.089835, 49.435358 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 8.736979, 41.920142 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.606526, 47.477845 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.878572, 43.609181 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.840337, 43.879145 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.329284, 48.797676 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.950683, 49.030678 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.476689, 44.828546 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.852634, 45.760036 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": null },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.859825, 43.5786 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.369773, 43.310938 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.181309, 45.780845 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.197841, 46.153971 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.883194, 44.905781 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.132379, 48.797166 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.852634, 45.760036 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.676007, 45.619249 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.991248, 45.702677 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.119963, 48.793335 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.315209, 46.032983 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.853961, 45.762822 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.078786, 49.034328 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.568436, 44.856355 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.14665, 45.535045 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.266872, 45.831408 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.05288, 47.324671 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.475484, 48.615477 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.804043, 44.102538 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.091398, 44.566457 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.151916, 43.119319 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.151916, 43.119319 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.251179, 45.38999 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.437586, 48.628402 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.357214, 47.743409 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.712722, 45.180084 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.901853, 43.901715 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.89263, 42.705651 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.062738, 48.90356 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.615701, 43.652305 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.776017, 45.081599 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.73699, 48.581445 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.072706, 50.645347 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.67311, 43.419499 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -2.977676, 48.081725 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.277539, 49.875219 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.174483, 48.690547 ] } },
+{ "type": "Feature", "properties": { "nature": "asp", "type": "AGENCE DE SERVICES ET DE PAIEMENT", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.361063, 48.956801 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.379261, 48.975958 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.417366, 45.27902 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.069259, 50.633538 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.307587, 49.869044 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.179885, 49.102778 ] } },
+{ "type": "Feature", "properties": { "nature": "fam", "type": "ETABLISSEMENT NATIONAL DES PRODUITS DE L AGRICULTURE ET DE LA MER FRANCEAGRIMER", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.382048, 48.981503 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.439957, 49.054083 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.013218, 48.743717 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.206634, 47.99681 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.350227, 44.019913 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.557647, 46.670648 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.177416, 49.120587 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.852634, 45.760036 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.43464, 43.607759 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Pascal WEHRLE", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.089835, 49.435358 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.181309, 45.780845 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Pascal WEHRLE", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.700263, 48.128308 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.33651, 46.582683 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.867318, 43.603061 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.369773, 43.310938 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.648394, 48.587341 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.726597, 47.389098 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.172906, 45.776221 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.295574, 46.306125 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.130501, 45.982629 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -3.264144, 47.816833 ] } },
+{ "type": "Feature", "properties": { "nature": "dgal", "type": "Direction générale de l'alimentation ", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.239664, 48.893887 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.601448, 44.73499 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 45.192507, -12.847553 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.572942, 47.207316 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.940309, 43.580254 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.08426, 44.564018 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.440702, 44.44201 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.42961, 48.843174 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.342217, 43.494413 ] } },
+{ "type": "Feature", "properties": { "nature": "agroparistech", "type": "Institut des sciences et industries du vivant et de l'environnement", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.348786, 48.839317 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 8.770615, 41.94991 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.197075, 43.858383 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.336535, 47.154893 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.163837, 46.993954 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.336996, 48.100206 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.595643, 48.840114 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 55.456313, -20.895915 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.819065, 48.07608 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.450947, 46.682365 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.418948, 47.076799 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.899294, 45.724733 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.701596, 46.001937 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -2.74137, 47.841347 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.887846, 45.592853 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.785272, 45.274644 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.047964, 44.854179 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.791968, 47.814144 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -2.74137, 47.841347 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.440066, 42.703766 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.097546, 49.111789 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.957039, 48.396132 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.478897, 46.352312 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.607285, 42.960169 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.560509, 44.358414 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.074586, 43.2185 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.839433, 48.931539 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.120129, 49.491074 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.580472, 47.856631 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.599753, 50.727576 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.073886, 50.618466 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.093431, 48.195836 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.337715, 47.757871 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.940641, 47.823876 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.479344, 46.376648 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.283259, 45.52204 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.954857, 45.941922 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.903059, 45.033877 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.900277, 43.601948 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.496568, 48.69481 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.026644, 44.613402 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.942997, 43.391154 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.357582, 46.669168 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.661965, 48.548469 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.355199, 48.843834 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.829027, 49.411764 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.13969, 49.023063 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.552231, 47.461586 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.742018, 47.667211 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.143076, 49.074764 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.083927, 48.294726 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.48188, 48.445418 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.330864, 47.608651 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.878996, 46.167062 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.328836, 46.596703 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 45.263864, -12.7876 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.076945, 48.634942 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.445352, 43.580183 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.577562, 47.793138 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 45.281897, -12.80547 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.355735, 48.962449 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.036867, 43.751537 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.643807, 44.194988 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.416932, 43.206707 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.139732, 43.922449 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.787178, 43.652564 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.053459, 47.353319 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.778015, 48.354535 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.405062, 50.590905 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.750037, 49.618875 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.512412, 49.909666 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.770472, 48.536789 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.162826, 48.683375 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.397993, 49.165821 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.689048, 46.806676 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.572161, 45.288497 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.177214, 45.677788 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.711671, 45.179872 ] } },
+{ "type": "Feature", "properties": { "nature": "ministere", "type": "Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.318236, 48.855435 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.40702, 49.824693 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.435193, 43.580029 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.5221, 50.006084 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.578028, 44.837125 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.862026, 43.612708 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.065457, 14.610797 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.578219, 44.84535 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.887027, 43.97798 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.300375, 45.839731 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.218427, 43.940752 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.471145, 44.529862 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.489958, 44.550959 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.486049, 48.382395 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.10121, 45.823698 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.419084, 50.049597 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.256211, 48.636507 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.659967, 16.260785 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.06351, 14.541384 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.450797, 49.500539 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.899719, 44.914077 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.776017, 45.081599 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 45.136366, -12.788348 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.036579, 42.544895 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.486444, 48.382804 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.187914, 48.693846 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.349778, 43.310783 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.759027, 42.635831 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.146195, 44.035796 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.47649, 43.53138 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.105503, 47.639583 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.919276, 47.722904 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -52.343352, 4.893834 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.819245, 49.353914 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.631006, 48.114185 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.374985, 47.934162 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.572942, 47.207316 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.14083, 48.107641 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.222629, 46.205679 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.433745, 44.909466 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.610464, 44.845758 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.441191, 48.181351 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.37266, 43.298315 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.49057, 48.380297 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.429354, 48.8434 ] } },
+{ "type": "Feature", "properties": { "nature": "afb", "type": "AGENCE FRANCAISE POUR LA BIODIVERSITE", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.907999, 47.901783 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.194776, 48.684898 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.080715, 43.614982 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -2.977676, 48.081725 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.498003, 46.313384 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.828332, 45.72686 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.203461, 48.331831 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.870432, 43.678048 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.59443, 50.723639 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.808044, 48.479846 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.177469, 45.774859 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 55.485011, -21.320516 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.423475, 48.810725 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.792026, 48.105229 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.607816, 47.478004 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.425121, 48.810693 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.044168, 49.231422 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.563178, 48.359076 ] } },
+{ "type": "Feature", "properties": { "nature": "anses", "type": "AGENCE NATIONALE SECURITE SANITAIRE ALIMENTATION TRAVAIL", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.180322, 48.729481 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.325618, 48.83452 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.80528, 48.385303 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.098918, 49.038129 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.372179, 48.838918 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.356926, 48.878722 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.232279, 48.871922 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -3.195021, 48.565748 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.878238, 48.95717 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.458957, 48.812073 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.126654, 48.871986 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.651128, 48.536226 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.558298, 45.039336 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.371419, 48.839518 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.4535, 48.258702 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.24729, 43.602993 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.705178, 48.413206 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.816861, 43.851288 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.187443, 48.693794 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.384527, 44.519111 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.840783, 43.864453 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.143078, 47.635008 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.153635, 46.996281 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.763747, 45.263506 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.000997, 47.924484 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.685403, 47.408033 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.087601, 49.262006 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.919257, 45.56935 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.371842, 48.739465 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.326908, 46.597188 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.817985, 48.651768 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.567978, 44.36107 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.187443, 48.693794 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.705369, 48.274951 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.510355, 44.522593 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.0723, 48.79564 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -3.996949, 47.874271 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.563158, 47.205371 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.240197, 44.097081 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.456228, 43.618054 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.090872, 43.217716 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.378131, 43.832983 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.109546, 49.481421 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.839101, 43.646922 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -52.314224, 4.944812 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.658942, 48.124041 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.402109, 48.060112 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.060701, 47.243122 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.05673, 47.352812 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.722576, 45.192439 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.838679, 49.179922 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.361581, 49.156246 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.461749, 49.184217 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.447964, 48.591345 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.089473, 49.450694 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.685764, 48.40231 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.153859, 48.777521 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.552334, 47.797266 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.24729, 43.602993 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.230935, 44.092805 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.76176, 48.577812 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.143042, 45.906667 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.128958, 48.792424 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.312264, 48.194541 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.271222, 46.173905 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.74474, 43.114867 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.291225, 47.725342 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.599453, 47.315838 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.76176, 48.577812 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 45.132573, -12.833772 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.615844, 48.002189 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.893935, 42.702733 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.957438, 46.849185 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.012211, 43.10752 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 8.971549, 41.642363 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.068442, 48.31327 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.475326, 49.398668 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.451058, 43.613158 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.465895, 48.176806 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 55.455942, -20.893005 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.360837, 43.298421 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.093499, 49.92572 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.844881, 45.759174 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.226278, 46.208432 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.215225, 48.483196 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.234368, 43.170707 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.384386, 43.103524 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.722576, 45.192439 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.172914, 45.776304 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.187443, 48.693794 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.37471, 49.591958 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.096712, 47.979127 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.367908, 43.953496 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.362384, 43.229576 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.715115, 49.773075 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.090984, 48.431963 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 8.745669, 41.935253 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.089322, 44.56682 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.47505, 48.87299 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.063368, 48.693769 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.369173, 44.756492 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.837078, 49.419396 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.042927, 50.626901 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.715115, 49.773075 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.67878, 48.404346 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.224643, 49.102367 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.365827, 43.759823 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.418948, 47.076799 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.968359, 48.273387 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.065702, 48.738585 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -54.027426, 5.503464 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.014716, 47.233492 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.74474, 43.114867 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.586327, 44.366557 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.799011, 47.501219 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.490451, 47.686017 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.335969, 48.065155 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.050912, 14.624699 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.357109, 44.54636 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.104048, 49.118268 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.446057, 43.541611 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.434637, 44.911959 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.2659, 45.83262 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.74474, 43.114867 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.901741, 44.929426 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.510355, 44.522593 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.552334, 47.797266 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.395765, 48.845342 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.340813, 50.446461 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.400026, 43.59022 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.560389, 46.6905 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.722576, 45.192439 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.583105, 44.878241 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.038494, 47.291118 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.901517, 43.601995 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.947679, 47.219245 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.181309, 45.780845 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.504539, 47.076216 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.60588, 42.960933 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.204142, 43.671378 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.135161, 48.094792 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.395324, 47.081893 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.793246, 48.822167 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.836141, 49.411402 ] } },
+{ "type": "Feature", "properties": { "nature": "onf", "type": "Office National des Forêts", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.205617, 47.907295 ] } },
+{ "type": "Feature", "properties": { "nature": "irstea", "type": "L'Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.874608, 43.645257 ] } },
+{ "type": "Feature", "properties": { "nature": "irstea", "type": "L'Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.749674, 45.187579 ] } },
+{ "type": "Feature", "properties": { "nature": "irstea", "type": "L'Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.510693, 43.522282 ] } },
+{ "type": "Feature", "properties": { "nature": "irstea", "type": "L'Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.756852, 47.838232 ] } },
+{ "type": "Feature", "properties": { "nature": "irstea", "type": "L'Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.111213, 45.76207 ] } },
+{ "type": "Feature", "properties": { "nature": "irstea", "type": "L'Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.701627, 48.128125 ] } },
+{ "type": "Feature", "properties": { "nature": "irstea", "type": "L'Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.435729, 46.338149 ] } },
+{ "type": "Feature", "properties": { "nature": "irstea", "type": "L'Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.697027, 44.774699 ] } },
+{ "type": "Feature", "properties": { "nature": "irstea", "type": "L'Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -60.978161, 14.623397 ] } },
+{ "type": "Feature", "properties": { "nature": "irstea", "type": "L'Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.317538, 48.748542 ] } },
+{ "type": "Feature", "properties": { "nature": "irstea", "type": "L'Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.875754, 45.77912 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.805886, 50.282184 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.918058, 48.842649 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.087639, 48.801947 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.349111, 48.74272 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.325118, 48.833789 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.985042, 47.428626 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.82646, 45.306734 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.179885, 49.102778 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.523906, 47.412584 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.992558, 43.158589 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.312407, 43.78094 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.079631, 49.422271 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.002355, 42.607261 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.374437, 43.602628 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.694255, 46.152591 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.50912, 44.800089 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.079631, 49.422271 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.530854, 43.501231 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.446262, 44.934984 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.452666, 43.572697 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.466105, 43.569182 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.036638, 43.642491 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.823748, 47.568679 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.420657, 48.913117 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.49148, 43.514438 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.176658, 45.776923 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.694255, 46.152591 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.13007, 50.639293 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.705393, 45.781138 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.719994, 43.436834 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.036596, 43.835799 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.611497, 47.476892 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.835278, 47.020773 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.077377, 44.085722 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.39584, 16.335294 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.866668, 43.637282 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.579204, 43.358389 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.017998, 45.720181 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.612184, 47.474226 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.638389, 48.11635 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.868194, 45.778928 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.341582, 48.819556 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.151706, 42.300134 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.363377, 49.188901 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.704596, 48.113114 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.065906, 45.783003 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.479808, 43.777368 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.022607, 47.321016 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.609718, 47.476345 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.863807, 43.61514 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.046523, 43.382855 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Yves ROYER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.062503, 49.231187 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.13811, 50.610877 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.291792, 48.730943 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.481467, 43.526548 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.343585, 48.844589 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.914598, 48.848108 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.32754, 48.502197 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.109467, 48.007573 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.792026, 48.105229 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.878106, 45.782639 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.509851, 47.060575 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.873016, 47.777473 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.776154, 47.546404 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.132609, 43.135737 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.854763, 43.617144 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.479398, 44.778987 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.140731, 48.744661 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.299547, 43.571757 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.043674, 14.613079 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.30583, 48.861111 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.222931, 47.486737 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.336335, 48.843419 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.161226, 48.019077 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.342217, 43.494413 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.83637, 45.727811 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.580787, 44.795048 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.334701, 48.063729 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.167716, 48.764855 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.332388, 48.584822 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.049203, 48.745294 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.838478, 48.139914 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.705393, 46.834681 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.15791, 44.033362 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.065523, 47.311249 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.348786, 48.839317 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -52.643723, 5.166699 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.573356, 47.663481 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.81236, 45.741942 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.289327, 48.851813 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.611247, 44.793108 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.548676, 47.477572 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.407122, 46.147261 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.554511, 47.212106 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.486689, 43.553485 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.087766, 45.770734 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.237325, 45.836132 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.1605, 48.703584 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.422127, 48.812633 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.120308, 48.799971 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.742817, 45.638088 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.130158, 48.735818 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.55533, 43.322299 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.49605, 43.52798 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.591552, 44.807724 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.038785, 49.878038 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.909074, 44.845082 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.385053, 43.601922 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.966206, 43.617985 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.840696, 45.68315 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.263244, 44.557285 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.65054, 16.1998 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.1605, 48.703584 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.703795, 45.202502 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.394006, 48.814189 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.144961, 48.651067 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.436675, 43.231682 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.077028, 43.611778 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.864384, 43.945623 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.827168, 45.729897 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.482291, 43.551929 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.191614, 48.696668 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.090638, 48.776464 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.455558, 46.366806 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.576603, 47.236327 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.098383, 47.235716 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.863812, 43.532531 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.079484, 46.403524 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.094931, 43.918202 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.773949, 44.736161 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.41192, 44.331353 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.576522, 44.785477 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.530134, 43.826258 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.611497, 47.476892 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.9166, 48.850433 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.164659, 48.667079 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.487113, 16.402735 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.439716, 48.623965 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.431661, 43.605606 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.586484, 48.839912 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.938564, 47.848812 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.591552, 44.807724 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.124343, 43.563969 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.663129, 49.611564 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.166615, 48.710821 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -52.63744, 5.158406 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.704596, 48.113114 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.9291, 44.976018 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.879646, 43.91753 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.122017, 48.294521 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.069007, 47.316697 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.490708, 42.314008 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.948408, 43.586167 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.523209, 47.290627 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.02823, 45.99175 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.187914, 48.693846 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.76615, 45.18983 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.139177, 47.13123 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 55.329303, -21.044009 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.077487, 48.405063 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.307542, 48.860364 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.550981, 47.789386 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.062268, 49.237459 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.400481, 43.288907 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.826214, 45.72636 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.802288, 45.709071 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.344285, 48.842293 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.605437, 44.826454 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.132281, 48.70541 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.359386, 48.847805 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.457612, 48.783471 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.942557, 48.796722 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.172224, 48.779421 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.129206, 48.820823 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.230555, 48.847635 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.1201, 48.793406 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.597825, 48.699952 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.47438, 48.88362 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.457612, 48.783471 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.198381, 48.903714 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.0139, 48.780331 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.868304, 48.733783 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.41111, 48.882446 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.522756, 48.826221 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.438767, 49.04528 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.456881, 48.784853 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.451704, 48.905808 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.056145, 48.969903 ] } },
+{ "type": "Feature", "properties": { "nature": "vnf", "type": "Voies Naviguables de France", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.398585, 48.687287 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.341847, 48.92685 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.825804, 48.518875 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.002222, 48.92506 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.44951, 48.800182 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.447964, 48.591345 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.624415, 48.93646 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.369654, 48.932798 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.148259, 48.809005 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.331493, 48.801866 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.303681, 48.845686 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.215468, 48.897979 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.629827, 48.790082 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.340593, 48.761503 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.102279, 49.029762 ] } },
+{ "type": "Feature", "properties": { "nature": "driea", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE EQUIPEMENT ET AMENAGEMENT REGION ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.272089, 48.840099 ] } },
+{ "type": "Feature", "properties": { "nature": "enva", "type": "ECOLE NATIONALE VETERINAIRE D ALFORT", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.076417, 47.766167 ] } },
+{ "type": "Feature", "properties": { "nature": "enva", "type": "ECOLE NATIONALE VETERINAIRE D ALFORT", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.422127, 48.812633 ] } },
+{ "type": "Feature", "properties": { "nature": "enva", "type": "ECOLE NATIONALE VETERINAIRE D ALFORT", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.098282, 49.217447 ] } },
+{ "type": "Feature", "properties": { "nature": "ensp", "type": "École nationale supérieure du paysage", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.122654, 48.79707 ] } },
+{ "type": "Feature", "properties": { "nature": "ensp", "type": "École nationale supérieure du paysage", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.1275, 50.62017 ] } },
+{ "type": "Feature", "properties": { "nature": "ensp", "type": "École nationale supérieure du paysage", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.602144, 44.792707 ] } },
+{ "type": "Feature", "properties": { "nature": "driee", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE DE L'ENVIRONNEMENT ET DE L'ENERGIE ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.429354, 48.8434 ] } },
+{ "type": "Feature", "properties": { "nature": "driee", "type": "DIRECTION REGIONALE ET INTERDEPARTEMENTALE DE L'ENVIRONNEMENT ET DE L'ENERGIE ILE DE FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.365551, 48.849125 ] } },
+{ "type": "Feature", "properties": { "nature": "driaaf", "type": "DIRECTION REGIONALE INTERDEPARTEMENTALE ALIMENTATION AGRICULTURE FORET ILE-DE-FRANCE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.329284, 48.797676 ] } },
+{ "type": "Feature", "properties": { "nature": "dgpe", "type": "DIRECTION GENERALE DE LA PERFORMANCE ECONOMIQUE ET ENVIRONNEMENTALE DES ENTREPRISES", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.318034, 48.85498 ] } },
+{ "type": "Feature", "properties": { "nature": "iavf", "type": "INSTITUT AGRONOMIQUE VETERINAIRE ET FORESTIER DE FRANCE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.284033, 48.860707 ] } },
+{ "type": "Feature", "properties": { "nature": "dicom", "type": "Administration centrale Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.318236, 48.855435 ] } },
+{ "type": "Feature", "properties": { "nature": "sg", "type": "Administration centrale Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.068254, 49.417009 ] } },
+{ "type": "Feature", "properties": { "nature": "sg", "type": "Administration centrale Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.483653, 43.535415 ] } },
+{ "type": "Feature", "properties": { "nature": "sg", "type": "Administration centrale Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.422227, 48.850922 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.119963, 48.793335 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.132379, 48.797166 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.037992, 48.809491 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.139399, 48.796008 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.290381, 49.897804 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.423908, 48.194434 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.441191, 48.181351 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.708818, 49.752709 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.739715, 50.300069 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.707907, 49.754255 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.350458, 48.949695 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.372591, 48.957773 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.002533, 49.322318 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.965123, 49.062461 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.085677, 48.296591 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.369969, 48.960743 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.036701, 49.259765 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.368761, 48.960833 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.08199, 48.29358 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.628835, 49.569365 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.932641, 50.120313 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.378371, 51.041304 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.088077, 50.376473 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.989246, 50.621563 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.380833, 51.038588 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.206857, 50.171991 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.083898, 50.631376 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.526284, 50.353072 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.545047, 50.717445 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.978187, 50.284237 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.372477, 51.033863 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.331031, 47.853515 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.311132, 47.765566 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.140976, 48.107089 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.145194, 48.116747 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.186226, 48.695554 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.162826, 48.683375 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.218749, 48.686679 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.882002, 48.675529 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.926624, 49.248055 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.173641, 48.76668 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.494163, 48.587873 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.215104, 47.902613 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.109103, 47.800422 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.337715, 47.757871 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.335235, 48.188756 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.236188, 47.614421 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.358992, 48.084997 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.1752, 49.367614 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.079926, 49.434323 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.098169, 49.114401 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.043739, 48.722211 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.170935, 49.128379 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.101357, 49.424129 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.487483, 48.829035 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.76176, 48.577812 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.789794, 48.813878 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.453027, 48.637009 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.455623, 48.405689 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.435113, 48.255635 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.959698, 48.818298 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.068891, 43.234589 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.045577, 43.220397 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.43464, 43.607759 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.140463, 43.923719 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.17655, 43.928644 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.387533, 41.914588 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.526571, 42.564455 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.708956, 45.790736 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.158482, 42.314413 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.438245, 42.606061 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.451968, 42.69625 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.445367, 42.698755 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.449714, 42.69564 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.440212, 42.703408 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 8.869226, 42.607866 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 8.972777, 41.620002 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.281272, 41.588615 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 8.738934, 41.921087 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 8.731473, 41.931156 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 8.737128, 41.919477 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.334884, 43.215386 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.015554, 43.179407 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.346092, 43.210333 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.212637, 43.055746 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.375238, 43.94995 ] } },
+{ "type": "Feature", "properties": { "nature": "inra", "type": "INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.290832, 16.278338 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.028592, 43.75667 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.582627, 43.649392 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.582627, 43.649392 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.403943, 43.516651 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.085021, 44.101847 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.023169, 44.361062 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.762888, 44.524541 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.560509, 44.358414 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.38428, 44.737405 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.029313, 44.610703 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.441576, 44.443342 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.440702, 44.44201 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.121632, 44.034455 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.549047, 44.15635 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.350227, 44.019913 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.581741, 44.342945 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.502779, 44.521985 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.295309, 44.556177 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.502736, 44.521903 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.891897, 42.705449 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.873025, 42.68786 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.846366, 42.942783 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.633662, 43.10075 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.607285, 42.960169 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.604063, 42.964385 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.14813, 42.986195 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.403574, 43.852376 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.781563, 43.968185 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.116322, 44.113382 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.334947, 43.826923 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.009829, 44.090927 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.067187, 44.540974 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.787007, 43.822121 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.049364, 44.053146 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.08426, 44.564018 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.230434, 44.096454 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.887027, 43.97798 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.060345, 43.929337 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.507626, 43.967742 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.80536, 43.944281 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.889166, 43.610159 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.699481, 43.409924 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.437672, 43.631967 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.935021, 43.115158 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.201221, 43.675957 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.377495, 43.303778 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.222934, 43.348859 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.691215, 43.413613 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.933045, 45.300716 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.250867, 44.551871 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.98952, 47.127602 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.238202, 44.913645 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.578256, 44.845377 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.502874, 44.895377 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.558092, 44.77465 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.247335, 44.554943 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.720971, 44.841542 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.25188, 47.167298 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.143125, 44.656158 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.691068, 47.383722 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.143125, 44.656158 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.101799, 44.743826 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.427165, 45.012154 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.604899, 44.842628 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.331676, 47.583678 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.068004, 47.79484 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.737571, 47.358409 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.48188, 48.445418 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.418948, 47.076799 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.899192, 47.915677 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.579738, 47.195193 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.65236, 47.032511 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.530811, 46.722389 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.266872, 45.831408 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.24105, 46.648505 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.056873, 46.637034 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.043784, 46.123889 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.470093, 46.324846 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.558957, 47.164091 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.990206, 46.586936 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.455351, 46.324899 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.238646, 46.192347 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.687523, 46.807009 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.702752, 46.84902 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.211464, 46.151812 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.525256, 46.586071 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.461939, 46.311904 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.871515, 46.168302 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.846222, 46.178362 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.17689, 45.96349 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.495574, 46.835202 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.482603, 46.235923 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.666048, 45.74312 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.204102, 46.175808 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.769043, 45.264606 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.558287, 45.154695 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.015792, 45.62365 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.104916, 45.823176 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.956786, 45.943643 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.991716, 46.311466 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.147406, 46.155493 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.517982, 45.944864 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.754134, 45.2573 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.428057, 45.448964 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.314671, 45.555891 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.141037, 46.167183 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.624361, 45.745532 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.485704, 43.895393 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.594754, 43.653901 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.636848, 44.188667 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.704776, 44.396701 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.164161, 45.646442 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.442475, 43.654306 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.038682, 43.705322 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.613031, 44.198841 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.340862, 44.137963 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.635284, 44.1938 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.590178, 44.191756 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.06917, 44.348199 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.155542, 44.504301 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.712395, 45.18069 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.349778, 43.310783 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.520965, 47.479362 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.093656, 48.013874 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.179399, 47.332186 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.794392, 46.494817 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.225229, 49.138322 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.414054, 46.665528 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.882251, 46.835969 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.502005, 47.435739 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.88477, 48.840382 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.805018, 46.463528 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.349039, 49.199501 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.349884, 49.199298 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.076994, 49.365542 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.552231, 47.461586 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.873862, 47.067673 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.491831, 48.387779 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.107734, 47.253186 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.121773, 49.492109 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.700292, 49.280277 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.872067, 47.693198 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.717606, 48.117289 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.43759, 42.630491 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.735901, 47.838742 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.13969, 49.023063 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.414069, 49.250431 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.75542, 48.063522 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.576357, 47.224745 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.609731, 48.294521 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.507968, 49.357658 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.143012, 49.025449 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.603379, 49.090729 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.09337, 48.43143 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.543044, 48.522631 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.587554, 48.753015 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.481101, 47.551175 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.767473, 47.654141 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.981593, 47.663583 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.375471, 47.935155 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.362797, 47.731143 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.277746, 47.800082 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.977265, 47.668591 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.496897, 48.03655 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.0148, 48.726233 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.757754, 47.645808 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.761758, 47.660101 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.843207, 47.874543 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.757008, 47.650541 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.756997, 47.650604 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.756922, 47.64913 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.758103, 47.645464 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.357214, 47.743409 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.355459, 47.74303 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.089835, 49.435358 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.382644, 49.761156 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.37546, 50.060587 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.945229, 49.571058 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.081358, 49.433132 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.625439, 49.638452 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.766346, 48.515165 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.206634, 47.99681 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.04231, 48.781351 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.909961, 48.40324 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.319931, 48.239896 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.04845, 48.781391 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.537833, 49.610335 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.433086, 49.736087 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.760652, 49.616255 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.091358, 49.118489 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.445623, 49.049439 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.090697, 49.431633 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.084095, 49.927118 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.361063, 48.684559 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.764818, 48.513753 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.449877, 48.726035 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.755498, 48.515938 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.1626, 48.550218 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.08299, 49.904851 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.747536, 48.500455 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.014996, 48.651885 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.507968, 49.357658 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.039303, 48.46035 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.759863, 48.182633 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.763359, 48.520636 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -3.48572, 48.827841 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.121773, 49.492109 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.748508, 48.501491 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.252685, 48.32392 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.536607, 48.587516 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.693984, 48.488618 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.11439, 49.48363 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.109193, 49.411039 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.365757, 46.678498 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.860895, 47.636737 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.836671, 46.794591 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.557647, 46.670648 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.899824, 48.632271 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.838961, 46.313165 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.089322, 44.56682 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.068268, 48.311566 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.445568, 42.59345 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.438007, 44.443283 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.075926, 48.294845 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.928172, 45.570279 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.494918, 44.518934 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.064394, 43.238101 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.582966, 43.648647 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.440212, 42.703408 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.60588, 42.960933 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.860895, 47.636737 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.480493, 48.445826 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.160668, 48.777028 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 8.681399, 41.933206 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.689048, 46.806676 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.446566, 44.928851 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.464437, 46.32416 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.712395, 45.18069 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.360648, 43.210385 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.596063, 44.731497 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.870471, 46.170045 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.140404, 48.114838 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.881893, 45.039078 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.465203, 48.19876 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.37755, 44.007915 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.572688, 47.792705 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.164737, 46.988112 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.769043, 45.264606 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.256924, 45.833204 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.344083, 46.559989 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.162819, 45.648971 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.226133, 44.091728 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.508645, 43.887673 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.551716, 46.672004 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.150482, 47.621629 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.890866, 45.032906 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.33733, 47.592435 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.75542, 48.063522 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.71387, 49.773639 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.37307, 48.957001 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.022809, 47.249405 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.395675, 45.421791 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.08884, 49.921898 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.552231, 47.461586 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.661681, 49.611022 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.578652, 44.877201 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.934024, 43.129132 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.782627, 47.648729 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.070232, 50.640571 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.853409, 45.754257 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.764172, 50.291707 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.104195, 45.886103 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.436208, 43.608575 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.691068, 47.383722 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.186226, 48.695554 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.348345, 49.199778 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.361754, 43.310217 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.103454, 49.42679 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.057183, 49.116277 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.899192, 47.915677 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.201221, 43.675957 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.301728, 49.871177 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.900136, 44.932963 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.080917, 49.429991 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.369333, 46.561925 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.839327, 43.62019 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.143807, 49.006228 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.436654, 46.67671 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.083763, 45.777301 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.819155, 43.94888 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -2.797187, 48.480927 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.145514, 46.162877 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.71238, 45.192783 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.544686, 47.208104 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.216646, 49.484393 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.835612, 46.314077 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.226861, 46.209579 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.902288, 42.690155 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.183052, 49.124065 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.076616, 49.440316 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -4.109536, 48.006874 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.206634, 47.99681 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.390022, 43.278515 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.941467, 48.636245 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.952834, 48.641029 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.393079, 49.823783 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.786865, 49.764383 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.700263, 48.128308 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.328634, 49.532759 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -1.038682, 43.705322 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.37472, 48.114156 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Philippe HERCOUET", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.09337, 48.43143 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 7.265265, 48.07585 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.560509, 44.358414 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.17335, 48.769599 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.162827, 48.103758 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.358992, 48.084997 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 8.739293, 41.931053 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Pascal WEHRLE", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.348345, 49.199778 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.894313, 48.673913 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.921063, 49.511416 ] } },
+{ "type": "Feature", "properties": { "nature": "dgpe", "type": "La direction générale de la performance économique et environnementale des entreprises", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.318034, 48.85498 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.381589, 49.108545 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.398478, 47.079919 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.770041, 45.814203 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 7.76176, 48.577812 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.724518, 46.275146 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.266872, 45.831408 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.340366, 46.127108 ] } },
+{ "type": "Feature", "properties": { "nature": "draaf", "type": "DIRECTION REGIONALE ALIMENTATION AGRICULTURE FORET", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.594498, 44.843155 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.809519, 45.973172 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.369333, 46.561925 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.701424, 46.247894 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.140175, 43.922479 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.070993, 45.023708 ] } },
+{ "type": "Feature", "properties": { "nature": "ddcspp", "type": "DIRECTION DEPARTEMENTALE COHESION SOCIALE ET PROTECTION POPULATIONS", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 0.625217, 44.194126 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.441583, 44.936293 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.312407, 43.78094 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.402923, 43.516113 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 9.449618, 42.584218 ] } },
+{ "type": "Feature", "properties": { "nature": "cgaaer", "type": "Le Conseil général de l’alimentation, de l’agriculture et des espaces ruraux ", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.303997, 48.840228 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.093276, 44.101659 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.093149, 44.541296 ] } },
+{ "type": "Feature", "properties": { "nature": "cnpf", "type": "Centre national de la propriété forestière", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.27795, 49.881221 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.419308, 43.462212 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 9.490708, 42.314008 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.093149, 44.541296 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.037992, 48.809491 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.151916, 43.119319 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 55.291385, -21.139038 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.455339, 43.462014 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.139399, 48.796008 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -2.426878, 48.190903 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.077531, 49.037154 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -3.996949, 47.874271 ] } },
+{ "type": "Feature", "properties": { "nature": "inao", "type": "INST NATIONAL ORIGINE QUALITE", "coordonnateur": "Jean-Dominique BAYART", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -0.353605, 49.184395 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.089186, 48.411278 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.062738, 48.90356 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ -61.005597, 14.607082 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.171881, 48.594377 ] } },
+{ "type": "Feature", "properties": { "nature": "dicom", "type": "Administration centrale Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Laurent LARIVIÈRE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.317634, 48.838494 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.149, 49.008736 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.445364, 48.625862 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.879568, 48.854167 ] } },
+{ "type": "Feature", "properties": { "nature": "sg", "type": "Administration centrale Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.318236, 48.855435 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.907339, 49.146708 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": null },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.483712, 46.845355 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.456027, 48.783824 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.039041, 44.584222 ] } },
+{ "type": "Feature", "properties": { "nature": "ddtm", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES MER", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.073886, 50.618466 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.076558, 46.406441 ] } },
+{ "type": "Feature", "properties": { "nature": "ddpp", "type": "DIRECTION DEPARTEMENTALE PROTECTION POPULATIONS", "coordonnateur": "Hélène GUIGNARD", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.357781, 48.743016 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.634731, 47.400328 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.677956, 48.537649 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.383158, 46.589667 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.600713, 45.362545 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.87434, 46.425311 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.236155, 45.727033 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.319855, 45.154716 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.379697, 43.121583 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.746993, 45.194533 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.040654, 43.238119 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.074468, 45.607894 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.634516, 44.916969 ] } },
+{ "type": "Feature", "properties": { "nature": "cirad", "type": "Centre de coopération internationale en recherche agronomique pour le développement", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.284033, 48.860707 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.634516, 44.916969 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.351282, 45.401451 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.634731, 47.400328 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.061602, 46.038381 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.558298, 45.039336 ] } },
+{ "type": "Feature", "properties": { "nature": "cgaaer", "type": "Le Conseil général de l’alimentation, de l’agriculture et des espaces ruraux ", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.261382, 45.835408 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.634516, 44.916969 ] } },
+{ "type": "Feature", "properties": { "nature": "cgaaer", "type": "Le Conseil général de l’alimentation, de l’agriculture et des espaces ruraux ", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.179885, 49.102778 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.091433, 47.799845 ] } },
+{ "type": "Feature", "properties": { "nature": "asma", "type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.38778, 48.868133 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.300221, 47.020168 ] } },
+{ "type": "Feature", "properties": { "nature": "asma", "type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.368628, 48.831588 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.300221, 47.020168 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.729864, 47.967077 ] } },
+{ "type": "Feature", "properties": { "nature": "asma", "type": "Association d’Action Sociale, Culturelle, Sportive et de Loisirs du ministère de l’Agriculture", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.285564, 48.911116 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.559181, 48.407711 ] } },
+{ "type": "Feature", "properties": { "nature": "cabinet\/bureau du cabinet ministere", "type": "Service central Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.422227, 48.850922 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.300221, 47.020168 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.091502, 43.917107 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -3.828266, 48.582212 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -4.091844, 48.19203 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.091502, 43.917107 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.091502, 43.917107 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.398032, 45.439918 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.678471, 45.41856 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.592549, 43.616914 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.510174, 46.841241 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.42719, 48.265502 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 4.791119, 45.935016 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.795467, 46.461685 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.212791, 47.213752 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.312831, 47.913579 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.863773, 43.694156 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.691517, 47.830972 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.481467, 43.526548 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.558298, 45.039336 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.362985, 43.360297 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.34194, 45.957642 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.593498, 43.169826 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 5.810771, 46.120224 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.688603, 45.168225 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.646251, 48.679326 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.15182, 48.813614 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.062621, 48.903021 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Christophe PAILLE", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.062621, 48.903021 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.819807, 50.278656 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.268311, 50.767513 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.116577, 50.548387 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.11139, 48.302857 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.786865, 49.764383 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.37279, 49.525866 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.116577, 50.548387 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.116577, 50.548387 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.12724, 48.29826 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.130853, 48.29241 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.37279, 49.525866 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.37279, 49.525866 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.393079, 49.823783 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.786865, 49.764383 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.786865, 49.764383 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.842865, 50.111116 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.927977, 49.935807 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.825163, 46.44677 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.111999, 46.483688 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.563919, 49.958522 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.116577, 50.548387 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.12724, 48.29826 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.37279, 49.525866 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.697412, 49.399698 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.689052, 49.985517 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.940425, 49.700322 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.842865, 50.111116 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.566274, 49.958618 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles BURBAN", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.927977, 49.935807 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.066018, 50.389965 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.649888, 50.24463 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.328634, 49.532759 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.042591, 48.230984 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.471562, 48.981318 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.445583, 51.046304 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.649888, 50.24463 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.066018, 50.389965 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.005229, 50.090993 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.445583, 51.046304 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.590428, 48.985082 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.994532, 50.648866 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.482722, 50.395462 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.005229, 50.090993 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.993325, 50.648803 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.445583, 51.046304 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.482722, 50.395462 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.994532, 50.648866 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.649888, 50.24463 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.066018, 50.389965 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.445583, 51.046304 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.424685, 49.074282 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.328634, 49.532759 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.100602, 48.084723 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.482722, 50.395462 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.005229, 50.090993 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.993325, 50.648803 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.04092, 48.224662 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.042591, 48.230984 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.509539, 49.049132 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.328634, 49.532759 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.90826, 49.836062 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.100602, 48.084723 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.88728, 49.832367 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.100602, 48.084723 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.04092, 48.224662 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles LE LARD", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.88728, 49.832367 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.602588, 47.780765 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.894313, 48.673913 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 7.300561, 47.955191 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 7.300561, 47.955191 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 7.300561, 47.955191 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.863773, 43.694156 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 7.300561, 47.955191 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 7.300561, 47.955191 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.605877, 47.781194 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.559181, 48.407711 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.605877, 47.781194 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.180322, 48.729481 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 7.265265, 48.07585 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.767493, 45.323368 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.180322, 48.729481 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.180322, 48.729481 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.162827, 48.103758 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Fabienne DEJAGER-SPECQ", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.180322, 48.729481 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.381589, 49.108545 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.381589, 49.108545 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.921063, 49.511416 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.559181, 48.407711 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.413012, 49.423929 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.508186, 48.820974 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.1616, 49.375855 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.413012, 49.423929 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.413012, 49.423929 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.413012, 49.423929 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.381589, 49.108545 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.413012, 49.423929 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.0893, 49.436905 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.485553, 43.535753 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.557105, 47.799129 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Patrick WEBER", "maps": "Mission d’appui aux personnes et aux structures nord-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.515152, 48.819254 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.785939, 45.77482 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.789394, 45.666415 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.181309, 45.780845 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.562967, 47.807955 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.807291, 46.029542 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.812909, 46.030806 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.801374, 45.687206 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.672711, 45.864606 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.789394, 45.666415 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.181309, 45.780845 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.181309, 45.780845 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.812909, 46.030806 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.801374, 45.687206 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.294936, 48.19457 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.572688, 47.792705 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.706492, 46.116204 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.770041, 45.814203 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.181309, 45.780845 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Anne LE HY", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.706492, 46.116204 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.635917, 47.805469 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.298706, 46.070515 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.79936, 45.982725 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.633268, 46.242397 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.863773, 43.694156 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.603143, 47.73465 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.340651, 46.12784 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.067935, 47.780791 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.635917, 47.805469 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.255954, 46.211637 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.255954, 46.211637 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.289807, 46.561764 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.289807, 46.561764 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.653568, 47.791626 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.289807, 46.561764 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.692055, 45.760715 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.255954, 46.211637 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.255954, 46.211637 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.289807, 46.561764 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.633268, 46.242397 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Gilles PELURSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.724518, 46.275146 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.422671, 45.301485 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.124464, 45.129135 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.422671, 45.301485 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.124298, 45.135198 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.441583, 44.936293 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.424785, 45.288954 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.424785, 45.288954 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.131535, 44.359974 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.356525, 44.76106 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.070993, 45.023708 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.406139, 44.604727 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.866927, 45.052039 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.422671, 45.301485 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 6.494297, 47.391937 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.544263, 44.959933 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.008053, 45.052008 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.891539, 44.952098 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.441583, 44.936293 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.444649, 44.935079 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.406139, 44.604727 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.891539, 44.952098 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.891539, 44.952098 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Eric MALLET", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.492683, 44.575311 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.433878, 45.349438 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.108297, 46.025842 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.108297, 46.025842 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.153565, 45.585022 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.765253, 45.818837 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.267337, 45.388641 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.267337, 45.388641 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.267337, 45.388641 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.677712, 47.256394 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.438109, 45.565721 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.438109, 45.565721 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.861385, 45.596581 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.452835, 46.821126 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.861385, 45.596581 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.892771, 45.56397 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.348237, 45.475777 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.348237, 45.475777 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.520823, 47.460604 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.348237, 45.475777 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.591988, 45.37852 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.706826, 45.138243 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.823546, 45.240812 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.823546, 45.240812 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.823546, 45.240812 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.743692, 46.301162 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.157328, 46.848828 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.842509, 47.671353 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.509938, 46.68943 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.509938, 46.68943 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.157328, 46.848828 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.743692, 46.301162 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.842509, 47.671353 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.93168, 47.063234 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.773155, 46.858897 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.275093, 46.434353 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.164798, 47.634545 ] } },
+{ "type": "Feature", "properties": { "nature": "ddt", "type": "DIRECTION DEPARTEMENTALE TERRITOIRES", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures CENTRE EST\nAuvergne-Rhône-Alpes et Bourgogne-Franche-Comté", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 3.163323, 46.987004 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.164798, 47.634545 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.164798, 47.634545 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.164798, 47.634545 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.743692, 46.301162 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.548174, 46.664208 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.705393, 46.834681 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.509938, 46.68943 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.842509, 47.671353 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.548809, 46.661884 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.509938, 46.68943 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Maclou VIOT", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.705393, 46.834681 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.938993, 47.059675 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.938993, 47.059675 ] } },
+{ "type": "Feature", "properties": { "nature": "cabinet\/bureau du cabinet ministere", "type": "Service central Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 1.483653, 43.535415 ] } },
+{ "type": "Feature", "properties": { "nature": "cabinet\/bureau du cabinet ministere", "type": "Service central Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Paul MERLIN", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.318236, 48.855435 ] } },
+{ "type": "Feature", "properties": { "nature": "sg", "type": "Administration centrale Ministère de l'Agriculture et de l'Alimentation", "coordonnateur": "Jean-Louis ROUSSEL", "maps": "Mission d’appui aux personnes et aux structures Ile de France et International", "icon": "marker" }, "geometry": { "type": "Point", "coordinates": [ 2.068254, 49.417009 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.873819, 47.201372 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.947679, 47.219245 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.312407, 43.78094 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.866563, 45.543239 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.580472, 47.856631 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.938993, 47.059675 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.048495, 47.261371 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Benoît SERMAGE", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.113482, 47.308995 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.046523, 43.382855 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.040654, 43.238119 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.485553, 43.535753 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.485553, 43.535753 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.475875, 43.34156 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.49148, 43.514438 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.834785, 43.127705 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.312407, 43.78094 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.496597, 43.519246 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.49148, 43.514438 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.730294, 43.117394 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.730294, 43.117394 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.279779, 43.900198 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.485553, 43.535753 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.475875, 43.34156 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.49148, 43.514438 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.834785, 43.127705 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.496597, 43.519246 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.49148, 43.514438 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.730294, 43.117394 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François GOUSSÉ", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.730294, 43.117394 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.35654, 43.197286 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.992558, 43.158589 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.93662, 43.303313 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.083409, 43.656992 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.730388, 44.779498 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.35654, 43.197286 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.35654, 43.197286 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.850561, 43.956905 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.35654, 43.197286 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.216193, 43.053411 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.992558, 43.158589 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.93662, 43.303313 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.93662, 43.303313 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.022383, 44.35284 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.589163, 44.368582 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.604041, 43.636922 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.402923, 43.516113 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.701813, 43.085759 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.35654, 43.197286 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.604041, 43.636922 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.584921, 43.646755 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.402923, 43.516113 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.850561, 43.956905 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.591871, 44.325735 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.022383, 44.35284 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.850561, 43.956905 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.083409, 43.656992 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.850561, 43.956905 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.992558, 43.158589 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marie-José LAFONT", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.026424, 44.351262 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.097258, 44.101465 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.222123, 44.430169 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.596839, 44.326279 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.029112, 44.572892 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.442131, 44.376589 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.301717, 44.810115 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.301717, 44.810115 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.315421, 44.032329 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.029112, 44.572892 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.301717, 44.810115 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.293296, 44.557117 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.804043, 44.102538 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.315421, 44.032329 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.442131, 44.376589 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.222123, 44.430169 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.596839, 44.326279 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.730388, 44.779498 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.293296, 44.557117 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.315421, 44.032329 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.029112, 44.572892 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.925225, 44.728115 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.448547, 44.379408 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.138979, 44.139919 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.87152, 42.779508 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.636467, 43.116426 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.870106, 42.76587 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.149779, 44.037189 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.636467, 43.116426 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.439982, 43.82929 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.439982, 43.82929 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.439982, 43.82929 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.439982, 43.82929 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Bernard VIU", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.636467, 43.116426 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.062184, 44.083598 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.045068, 43.921972 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.062184, 44.083598 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.804043, 44.102538 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.062184, 44.083598 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.836101, 43.652394 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.864354, 43.648029 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.864728, 43.648523 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.899784, 43.630003 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.062184, 44.083598 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.183914, 43.328434 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.877782, 43.911906 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.214859, 43.343059 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "René-Paul LOMI", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.149779, 44.037189 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.477455, 43.459801 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 7.107397, 43.597417 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.835743, 43.790216 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 7.109805, 43.598837 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.377847, 43.239385 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.835743, 43.790216 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.455339, 43.462014 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 7.109805, 43.598837 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.835743, 43.790216 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.455339, 43.462014 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.377847, 43.239385 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 7.107397, 43.597417 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.455339, 43.462014 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.835743, 43.790216 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 6.47809, 43.463391 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Philippe TEJEDOR", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 5.455339, 43.462014 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -2.426878, 48.190903 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -2.969746, 48.077904 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -3.262859, 47.817273 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -2.152775, 48.295252 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.42719, 48.265502 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -3.828266, 48.582212 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -3.195021, 48.565748 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -2.152775, 48.295252 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -4.21077, 48.318118 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.448626, 49.041095 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -4.091844, 48.19203 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -4.21077, 48.318118 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -2.426878, 48.190903 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Béatrice ROLLAND", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -2.152775, 48.295252 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.64994, 48.088128 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.378013, 46.664443 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.796763, 48.048585 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -2.428083, 47.324806 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.796397, 48.049234 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.378013, 46.664443 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.381451, 46.663272 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.381451, 46.663272 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.825163, 46.44677 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.796763, 48.048585 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Marc GIRODO", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.796763, 48.048585 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.174508, 48.596062 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.149, 49.008736 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.448626, 49.041095 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.181974, 49.199179 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.605591, 49.515548 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.171881, 48.594377 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.605591, 49.515548 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.741305, 49.607205 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.174508, 48.596062 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.089186, 48.411278 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.181974, 49.199179 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.448626, 49.041095 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.005675, 49.000011 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.006305, 48.839907 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.130164, 44.929651 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.006305, 48.839907 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.15495, 48.997974 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.879568, 48.854167 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.181974, 49.199179 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.357109, 44.54636 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.448626, 49.041095 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.234277, 48.547826 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.005675, 49.000011 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.005675, 49.000011 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.879568, 48.854167 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.907339, 49.146708 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.741305, 49.607205 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.005675, 49.000011 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.879568, 48.854167 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.006305, 48.839907 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.907339, 49.146708 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.172813, 49.171198 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.102629, 49.107127 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.454089, 49.042832 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.979604, 47.396594 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.006305, 48.839907 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.907339, 49.146708 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.149, 49.008736 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.87434, 46.425311 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.225073, 44.433633 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.070369, 46.405305 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.383158, 46.589667 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.87434, 46.425311 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.507613, 45.08547 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.076558, 46.406441 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.076558, 46.406441 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.483712, 46.845355 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.076558, 46.406441 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.729864, 47.967077 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.225073, 44.433633 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.130164, 44.929651 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.350511, 44.542838 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.558298, 45.039336 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.130164, 44.929651 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.220863, 44.432527 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.130164, 44.929651 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.350511, 44.542838 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.634516, 44.916969 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.483712, 46.845355 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.634731, 47.400328 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.603454, 47.425622 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.227723, 47.204719 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.634516, 44.916969 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.146864, 44.610151 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.727976, 47.338921 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.350511, 44.542838 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.146864, 44.610151 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yann DORSEMAINE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.039041, 44.584222 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.875861, 47.750398 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.729864, 47.967077 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.756852, 47.838232 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.559181, 48.407711 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.300221, 47.020168 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.756852, 47.838232 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.091433, 47.799845 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.091433, 47.799845 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.091433, 47.799845 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.300221, 47.020168 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.326718, 47.566316 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.914593, 47.749162 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.435109, 48.071568 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.435109, 48.071568 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.438991, 47.988086 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.875861, 47.750398 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "François BONNET", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.326718, 47.566316 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.030146, 46.095148 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.474213, 46.340615 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.174842, 45.839236 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.510174, 46.841241 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.474213, 46.340615 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.151212, 46.228182 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.474213, 46.340615 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.151212, 46.228182 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.510174, 46.841241 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.030146, 46.095148 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.474213, 46.340615 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.185653, 46.208877 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.030146, 46.095148 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.510174, 46.841241 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.030146, 46.095148 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.174842, 45.839236 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.27253, 45.379849 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.148392, 45.53346 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.27253, 45.379849 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.767493, 45.323368 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.156936, 45.846852 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.14665, 45.535045 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.277704, 45.381098 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.156936, 45.846852 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.148392, 45.53346 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 2.27987, 45.384668 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.417366, 45.27902 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.417366, 45.27902 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Alain SCHOST", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.644475, 45.757618 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.130164, 44.929651 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.039041, 44.584222 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.225073, 44.433633 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.741359, 44.144916 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.369543, 44.1098 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.507613, 45.08547 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.59475, 44.401514 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.350511, 44.542838 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.349365, 44.377439 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.59475, 44.401514 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.689742, 44.617646 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.339249, 44.135219 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.225073, 44.433633 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.068559, 43.658811 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.756452, 43.742919 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.11908, 45.45726 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.130164, 44.929651 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.130164, 44.929651 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.220863, 44.432527 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.11908, 45.45726 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.59475, 44.401514 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 8.971549, 41.642363 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.068559, 43.658811 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.068559, 43.658811 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.130164, 44.929651 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.350511, 44.542838 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.103767, 45.624993 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.634516, 44.916969 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.068559, 43.658811 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.634516, 44.916969 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.103767, 45.624993 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.103767, 45.624993 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.741359, 44.144916 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.634516, 44.916969 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.634516, 44.916969 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.146864, 44.610151 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.59475, 44.401514 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.349365, 44.377439 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.103767, 45.624993 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.350511, 44.542838 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.146864, 44.610151 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.634516, 44.916969 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.039041, 44.584222 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christian SALABERT", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.741359, 44.144916 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.593498, 43.169826 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.340665, 43.374969 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.340665, 43.374969 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.749573, 43.500831 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -1.319906, 43.38262 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.593498, 43.169826 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.749573, 43.500831 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.688603, 45.168225 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.688603, 45.168225 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.698171, 45.174994 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.489135, 44.81092 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.688603, 45.168225 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves COCHE", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 0.489135, 44.81092 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 8.971549, 41.642363 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 8.971549, 41.642363 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 9.447237, 42.585656 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 9.449618, 42.584218 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 8.971549, 41.642363 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean-Pierre LILAS", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 9.461682, 42.586668 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.139177, 47.13123 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.250179, 45.510135 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.139177, 47.13123 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.139177, 47.13123 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.250179, 45.510135 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Yves CONFESSON", "maps": "Mission d’appui aux personnes et aux structures centre-est", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 4.866563, 45.543239 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Laurence DELVA", "maps": "Mission d’appui aux personnes et aux structures ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ -0.139177, 47.13123 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Jean CEZARD", "maps": "Mission d’appui aux personnes et aux structures sud", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 3.853087, 44.724149 ] } },
+{ "type": "Feature", "properties": { "nature": "eplefpa", "type": "Etablissements Publics Locaux d'Enseignement et de Formation Professionnelle Agricoles", "coordonnateur": "Christine MOURRIERAS", "maps": "Mission d’appui aux personnes et aux structures centre - sud ouest", "icon": "college" }, "geometry": { "type": "Point", "coordinates": [ 1.250179, 45.510135 ] } }
+]
 }

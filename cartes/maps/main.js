@@ -30,7 +30,7 @@ url: 'mapbox://vincentfaucher.bnskcbaw'});
 map.addSource("region", {
 "type": "geojson",
 'generateId': true,
-"data": "./region.geojson"});
+"data": region});
 
 // service_deconcentres_etat
 // Add a new source from our GeoJSON data and set the
@@ -38,7 +38,7 @@ map.addSource("region", {
 map.addSource("data", {
 type: "geojson",
 // Point to GeoJSON data. 
-data: "./service_deconcentres_etat.geojson",
+data: window.serviceEtat,
 cluster: true,
 clusterMaxZoom: 14, // Max zoom to cluster points on
 clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)

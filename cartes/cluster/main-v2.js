@@ -74,7 +74,7 @@ map.on('load', () => {
   });
 
     map.addLayer({
-      'id': 'powerplant_individual_outer',
+      'id': 'agents',
       'type': 'circle',
       'source': 'data',
       'filter': ['!=', ['get', 'cluster'], true],
@@ -309,7 +309,7 @@ map.on('load', () => {
 
 //cluster pop-up
 map.on('click', function (e) {
-var features = map.queryRenderedFeatures(e.point, { layers: ['powerplant_individual_outer'] });
+var features = map.queryRenderedFeatures(e.point, { layers: ['agents'] });
 if (!features.length) {
 return;
 }
@@ -324,7 +324,7 @@ var popup = new mapboxgl.Popup({ offset: [0, -15] })
 });
 
 map.on('mousemove', function (e) {
-var features = map.queryRenderedFeatures(e.point, { layers: ['powerplant_individual_outer'] });
+var features = map.queryRenderedFeatures(e.point, { layers: ['agents'] });
 map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
 });
 
